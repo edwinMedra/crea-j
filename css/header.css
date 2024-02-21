@@ -1,0 +1,169 @@
+header{
+background-color: white;
+font-family: "bayon";
+font-size: 25px;
+width: 100%;
+}
+#logo img{
+    width: 200px;
+    margin-left: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#lupi img{
+width: 30px;
+margin: 30px auto;
+float: right;
+margin-right: 20px;
+cursor: pointer;
+}
+/*parte de el header*/
+
+
+.barita-azul {
+    width: max-content;
+    position: absolute;
+    top: 66px;
+    left: 340px;
+    height: 5px;
+    display: none;
+}
+
+.barita-azul img {
+    width: 175px;
+}
+
+/*inicia el otro*/
+.barita-azul-1 {
+    width: max-content;
+    position: absolute;
+    top: 66px;
+    left: 580px;
+    height: 5px;
+    display: none;
+}
+
+.barita-azul-1 img {
+    width: 175px;
+}
+/*fin de el otro*/
+/*inicia el otro*/
+.barita-azul-2 {
+    width: max-content;
+    position: absolute;
+    top: 66px;
+    left: 815px;
+    height: 5px;
+    display: none;
+}
+
+.barita-azul-2 img {
+    width: 110px;
+    height: 6px;
+}
+/*fin de el otro*/
+.barita-azul-3 {
+    width: max-content;
+    position: absolute;
+    top: 66px;
+    left: 985px;
+    height: 5px;
+    display: none;
+}
+
+.barita-azul-3 img {
+    width: 80px;
+    height: 6px;
+}
+/*fin de el otro*/
+.texto1 {
+    width: max-content;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    cursor: pointer;
+}
+.texto2{
+    width: max-content;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 580px;
+    cursor: pointer;
+}
+.texto3{
+    width: max-content;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 830px;
+    cursor: pointer;
+}
+.texto4{
+    width: max-content;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 1000px;
+    cursor: pointer;
+}
+#menu{
+    display: none;
+  }
+  #hamburger{
+    display: block;
+  }
+  .menu-list{
+    display: none;
+  }
+  #menu:checked + .menu-list{
+    display: block;
+  }
+  #hamburger-1{
+    display: none;
+  }
+/* Hover */
+.texto1:hover + .barita-azul {
+display: block;
+}
+.texto2:hover + .barita-azul-1 {
+    display: block;
+    }
+.texto3:hover + .barita-azul-2 {
+        display: block;
+        }
+.texto4:hover + .barita-azul-3 {
+            display: block;
+            }
+/*fin hover*/
+
+/*fin de lista de header*/
+/*Responsive para el header*/
+@media screen and (max-width: 1150px) {
+    header {
+        flex-direction: column;
+    }
+    #logo img{
+        width: 200px;
+        margin-left: 35px;
+        margin-top: 15px;
+    }
+
+.part-list{
+    display: none;
+}
+    .menu-list li{
+        list-style: none;
+        margin-left: 20px;
+       }
+       #hamburger-1{
+        display: block;
+       }
+        #hamburger:checked + .menu-list{
+        display: block;
+        position: absolute;
+      }
+}
+/*fin responsive*/
