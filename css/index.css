@@ -252,20 +252,6 @@ height: max-content;
 .pie .left-pie-img img{
   width: 150px;
 }
-.pie .left .text-left-pie h5{
-font-size: 20px;
-text-align: left;
-}
-.pie .left .text-left-pie{
-margin: 0 auto;
-color: white;
-}
-.pie .left .text-left-pie ul{
-  list-style: none;
-}
-.pie .left .text-left-pie ul li{
-  margin: 10px 0;
-}
 .datos-pie {
   width: 1000px;
   display: flex;
