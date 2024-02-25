@@ -295,7 +295,7 @@ height: max-content;
   @media screen and (max-width: 1150px) {
   .texto-superpuesto{
     font-size:200%;
-    margin-top: 60px;
+    margin-top: 80px;
  }
  .ofert-viajes img{
   width: 450px;

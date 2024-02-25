@@ -19,8 +19,6 @@ margin-right: 20px;
 cursor: pointer;
 }
 /*parte de el header*/
-
-
 .barita-azul {
     width: max-content;
     position: absolute;
@@ -140,8 +138,34 @@ display: block;
 /*fin hover*/
 
 /*fin de lista de header*/
+/*buscador de el header*/
+#buscador{
+    display: none;
+}
+.buscador{
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 28px;
+    right: 70px;
+    display: none;
+}
+.buscador input[type="search"]{
+    border: 1px black solid;
+    border-radius: 10px;
+    padding:3px 10px;
+}
+#boton-buscador{
+    display: none;
+}
+#buscador:checked + .buscador{
+    display: block;
+}
 /*Responsive para el header*/
 @media screen and (max-width: 1150px) {
+    #logito-lupa{
+        display: none;
+    }
     header {
         flex-direction: column;
     }
@@ -165,5 +189,9 @@ display: block;
         display: block;
         position: absolute;
       }
+      .buscador{
+        display: none;
+      }
+
 }
 /*fin responsive*/
