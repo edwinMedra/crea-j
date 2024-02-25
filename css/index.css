@@ -282,7 +282,12 @@ height: max-content;
 }
 .datosFinales-pie li {
   margin: 15px 0 ;
+  display: flex;
   
+}
+.datosFinales-pie li img {
+  margin-left: 10px;
+  height: 30px;
 }
 /*fin de pie de pagina*/
 /*fin viajar*/
