@@ -266,6 +266,10 @@ color: white;
 .pie .left .text-left-pie ul li{
   margin: 10px 0;
 }
+.datos-pie {
+  display: flex;
+  justify-content: space-around;
+}
 /*fin de pie de pagina*/
 /*fin viajar*/
 /*responsive */
