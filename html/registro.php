@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -53,19 +54,45 @@
             <span class="login">
                 <img src="..//imagen/Registro/logito.png" alt="" class="logito">
             </span>
-            <form action="">
-                <input type="text" placeholder="Nombre"><br>
-                <input type="text" placeholder="Apellido"><br>
-                <input type="password" name="" id="" placeholder="Contraseña"><br>
-                <input type="email" name="" id="" placeholder="Correo"><br>
-                <input type="number" name="" maxlength="3" id="" placeholder="Pasaporte" ><br>
-                <input type="text" name="" id="" placeholder="DUI"><br>
+            <form action="" method="POST">
+                <input type="text" placeholder="Nombre" name="name"><br>
+                <input type="text" placeholder="Apellido" name="lastname"><br>
+                <input type="password" id="" placeholder="Contraseña" name="pass"><br>
+                <input type="email" id="" placeholder="Correo" name="mail"><br>
+                <input type="number" name="passport" maxlength="3" id="" placeholder="Pasaporte" ><br>
+                <input type="text" id="" name="dui" placeholder="DUI"><br>
                 <div class="crear-1">
-                    <input type="submit" value="Crear" id="crear">
+                    <input type="submit" value="Crear" id="crear" name="enviar">
                     <h4>Iniciar Sesion</h4>
+
                 </div>
             </form>
         </div>
     </div>
 </body>
 </html>
+<?php
+//Inicia proceso de registro de datos de usuarios
+include ("../php/conex.php");
+//tomar datos de los inputs
+error_reporting(0);
+$name = trim($_POST['name']);
+$lastname = trim($_POST['lastname']);
+$pass = trim($_POST['pass']);
+$mail = trim($_POST['mail']);
+$passport = trim($_POST['passport']);
+$dui = trim($_POST['dui']);
+//validar datos
+if (empty($name) || empty($lastname) ||empty($pass) ||empty($mail) ||empty($passport) || empty($dui)){
+    echo "<center>Todos los campos son obligatorios</center>";
+}else{
+    //insertar a la base de datos
+    $sql = "INSERT INTO `usuarios`(`nombre`, `apellido`, `contrasena`, `correo`, `pasaporte`, `dui`) VALUES ('$name','$lastname','$pass','$mail','$passport','$dui')";
+    $resul = mysqli_query($conex,$sql);
+    if ($resul){
+        echo "<center>Usuario Registrado con exito</center>";
+    }else{
+        echo "<center>Error al insertar datos, comunicarse con el soporte de la pagina web</center>";
+    }
+}
+?>
