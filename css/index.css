@@ -113,18 +113,46 @@ height: max-content;
 
 /*Fin boton deslisante*/
 /*ofertas de viajes*/
-
+.ofert-viajes{
+  margin: 20px auto;
+  width: max-content;
+}
 .ofert-viajes h1{
   text-align: center;
 }
 .ofert-viajes > div{
 display: inline-flex;
   width: max-content;
-
+  margin: 0 40px;
 }
 .ofert-viajes img{
-  width: 60%;
+  width: 300px;
 }
+.ofert-viajes .ofert-img{
+  width: max-content;
+}
+.ofert-viajes .texto{
+  height: max-content;
+  position: absolute;
+  width: 300px;
+  display: flex;
+  margin-top: 180px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+.ofert-viajes .texto h4{
+  color: #273758;
+}
+.ofert-viajes .texto .texto-son{
+  width: max-content;
+  margin: 0 auto;
+}
+.ofert-viajes .texto .texto-son-right{
+  width: max-content;
+  margin: 0 auto;
+}
+/*fin ofertas viaje*/
 /*informacion*/
 .mas-info{
   text-align: center;

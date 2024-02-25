@@ -163,6 +163,9 @@ display: block;
 }
 /*Responsive para el header*/
 @media screen and (max-width: 1150px) {
+    li input[type="search"]{
+        width: 100%;
+    }
     #logito-lupa{
         display: none;
     }
