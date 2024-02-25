@@ -257,13 +257,32 @@ height: max-content;
   display: flex;
   justify-content: space-around;
   color: white;
+  margin-bottom: 20px;
 }
 .datos-pie ul {
   list-style: none;
 }
-.datos-pie u li img {
-  height: 15px;
-  margin-right: 6px;
+.datos-pie .text-derecha-pie li {
+  display: flex;
+  margin-bottom: 10px;
+}
+.datos-pie .text-derecha-pie li img {
+  height: 30px;
+  margin-right: 12px;
+}
+.hr-footer {
+  color: white;
+  height: 3px;
+}
+.datosFinales-pie {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.datosFinales-pie li {
+  margin: 15px 0 ;
+  
 }
 /*fin de pie de pagina*/
 /*fin viajar*/
