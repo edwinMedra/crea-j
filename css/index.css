@@ -253,9 +253,17 @@ height: max-content;
   width: 150px;
 }
 .datos-pie {
-  width: 1000px;
+  width: 1100px;
   display: flex;
   justify-content: space-around;
+  color: white;
+}
+.datos-pie ul {
+  list-style: none;
+}
+.datos-pie u li img {
+  height: 15px;
+  margin-right: 6px;
 }
 /*fin de pie de pagina*/
 /*fin viajar*/
