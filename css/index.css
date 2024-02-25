@@ -267,6 +267,7 @@ color: white;
   margin: 10px 0;
 }
 .datos-pie {
+  width: 1000px;
   display: flex;
   justify-content: space-around;
 }
