@@ -34,7 +34,7 @@ body{
 }
 .padre-1{
   width:400px;
-  
+
   text-align: center;
 }
 .padre-1 h3{
@@ -67,6 +67,25 @@ height: max-content;
   margin-left: 30px;
   margin-bottom: 10px;
 }
+/*cantidad de personas a viajar*/
+.personas{
+  width: max-content;
+  height: max-content;
+}
+.personas .opciones{
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: 3px black solid;
+}
+.personas #opciones{
+  border: 0;
+  width: 30px;
+  position: absolute;
+  margin-top: 20px;
+  margin-right: 30px;
+  size: 20px;
+}
+/*Fin personas a viajar*/
 /*boton deslisante*/
 .boton{
   margin-left: 20px;
