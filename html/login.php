@@ -53,7 +53,7 @@
         </div>
         <div class="formu">
             <form action="" method="post">
-          <input type="text" placeholder="Usuario" name="name"><br>
+          <input type="text" placeholder="Pasaporte" name="name"><br>
           <input type="password" placeholder="Contraseña" name="pass"><br>
           <div class="crear-1">
             <input type="submit" value="Crear" id="crear">
@@ -70,7 +70,7 @@ $pass = trim($_POST['pass']);
 if (empty($name) || empty($pass)){
   echo "<center><h3>Complete los datos para iniciar sesion</h3></center>";
 }else{
-    $consulta = "SELECT `nombre`, `contrasena` FROM `usuarios` WHERE nombre='$name' and contrasena='$pass' ";
+    $consulta = "SELECT `pasaporte`, `contrasena` FROM `usuarios` WHERE pasaporte='$name' and contrasena='$pass' ";
     $resul = mysqli_query($conex, $consulta);
     $filas= mysqli_num_rows($resul);
     if ($filas>0){
