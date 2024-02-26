@@ -56,7 +56,7 @@
           <input type="text" placeholder="Pasaporte" name="name"><br>
           <input type="password" placeholder="Contraseña" name="pass"><br>
           <div class="crear-1">
-            <input type="submit" value="Crear" id="crear">
+            <a href="registro.php"><input type="submit" value="Crear" id="crear"></a>
             <input type="submit" value="Iniciar Sesion" id="crear">
             </form>
         </div><br>
