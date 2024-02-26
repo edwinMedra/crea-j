@@ -265,6 +265,9 @@ height: max-content;
   font-size: 25px;
 }
 /*pie de pagina*/
+.pie-telefono{
+  display: none;
+}
 .pie{
   background-color: #273758;
   font-family: "bayon";
@@ -276,6 +279,7 @@ height: max-content;
 .pie .left-pie-img{
   width: max-content;
   padding-top: 30px;
+  margin-left: 60px;
 }
 .pie .left-pie-img img{
   width: 150px;
@@ -330,7 +334,7 @@ height: max-content;
  }
 .ofert-viajes > div{
   display: flex;
-  margin: 30px auto;
+  margin: 80px auto;
 }
 .bloques{
   display: inline;
@@ -344,5 +348,16 @@ height: max-content;
 .preparate .son{
   margin: 20px auto;
 }
+.ofert-viajes .texto{
+  width: 450px;
+  margin-top: 270px;
+}
+.pie{
+  display: none;
+}
+.pie-telefono{
+  display: block;
+}
+
 }
 /*fin responsive*/
