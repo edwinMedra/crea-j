@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ECEBEB;
+    font-family: "bayon";
+}
+.back{
+    margin-top: 50px;
+}
+.back img{
+width: 100%;
+position: absolute;
+z-index: -1;
+}
+ .titulo{
+    margin: 0 auto;
+    margin-top: 250px;
+    width: max-content;
+    font-family: "red hat display";
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.info{
+    font-family: "Be Vietnam Pro";
+    background-color: white;
+    margin: 100px 50px;
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 39px;
+    text-align: center;
+}
+.info .boton{
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.boton button{
+    background-color: #273758;
+    border: 0;
+    border-radius: 52px;
+    padding: 20px 30px;
+    color: white;
+    font-size: 20px;
+}
