@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    z-index: 1;
+}
+body{
+    background-color: #ECEBEB;
+    font-family: "red hat display";
+}
+/*imagen principal de la pagina web*/
+.back img{
+width: 100%;
+filter: brightness(50%);
+margin-top: 97px;
+}
+.back .titulo{
+    position: absolute;
+    margin-top: -350px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: "Be vietnam pro";
+    font-size: 65px;
+}
+/*fin imagen principal*/
+/*inicio de los aeropuertos principales*/
+.start{
+    color: #8B8B8B;
+    margin: 40px 80px;
+    font-size: 30px;
+}
