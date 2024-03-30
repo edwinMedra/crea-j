@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ECEBEB;
+    font-family: "be vietnam pro";
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.titulo .titulo-1{
+    font-family: "bayon";
+    font-size: 40px; 
+    color: #273758;
+    margin: 0 20px;
+}
+.titulo .img img{
+    width: 60px;
+}
+.seleccion{
+    color: #8B8B8B;
+    margin: 0 50px;
+    font-size: 20px;
+}
+.cantidad{
+    display: flex;
+    justify-content: center;
+}
+.cantidad .left{
+    background-color: #345D9B;
+    color: white;
+    margin: 0 100px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.cantidad .right{
+    background-color: #345D9B;
+    color: white;
+    margin: 0 100px;
+    padding: 20px;
+    border-radius: 30px;
+}
+/*filas de los asientos vip*/
+/*cambio de color de los asientos*/
+input[type="checkbox"]{
+    display: none;
+}
+/*asientos de la sección VIP a1*/
+#A1{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a1:checked ~ #A1{
+    background-color: #7AF57F;
+}
+/*fin asiento vip a1*/
+/*inicio de asiento vip a2*/
+#A2{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a2:checked ~ #A2{
+    background-color: #7AF57F;
+}
+/*fin inicio asiento vip a2*/
+/*inicio de asiento vip a5*/
+#A5{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a5:checked ~ #A5{
+    background-color: #7AF57F;
+}
+/*fin asiento a5*/
+/*inicio de asiento a6*/
+#A6{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a6:checked ~ #A6{
+    background-color: #7AF57F;
+}
+/*fin asiento a6*/
+/*inicio de fila 2*/
+.filas-2{
+    display: flex;
+    justify-content: center;
+}
+/*asientos de centro*/
+/*asiento a3*/
+#A3{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a3:checked ~ #A3{
+    background-color: #7AF57F;
+}
+/*fin asiento a3*/
+/*inicio asiento a4*/
+#A4{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a4:checked ~ #A4{
+    background-color: #7AF57F;
+}
+/*fin asiento a4*/
+/*fin de fila 2*/
+/*inicio de fila 3*/
+.filas .filas-3{
+    margin: 0;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.filas .filas-3 .left{
+    margin: 0 150px;
+}
+.filas .filas-3 .right{
+    margin: 0 150px;
+}
+/*asientos fila 3*/
+/*asiento 7*/
+#A7{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a7:checked ~ #A7{
+    background-color: #7AF57F;
+}
+/*asiento 8*/
+#A8{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a8:checked ~ #A8{
+    background-color: #7AF57F;
+}
+/*asiento b1*/
+#B1{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#b1:checked ~ #B1{
+    background-color: #7AF57F;
+}
+/*asiento b2*/
+#B2{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#b2:checked ~ #B2{
+    background-color: #7AF57F;
+}
+/*fin de fila 3*/
+#asiento:hover{
+    cursor: pointer;
+}
+#asiento label:hover{
+    cursor: pointer;
+}
+.filas .filas-1{
+    margin: 40px 0;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.filas .filas-1 .left{
+    margin: 0 150px;
+}
+.filas .filas-1 .right{
+    margin: 0 150px;
+}
