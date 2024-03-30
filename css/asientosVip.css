@@ -177,6 +177,89 @@ input[type="checkbox"]{
     background-color: #7AF57F;
 }
 /*fin de fila 3*/
+/*fila 4*/
+.filas-4{
+    display: flex;
+    justify-content: center;
+}
+/*asiento a9*/
+#A10{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a10:checked ~ #A10{
+    background-color: #7AF57F;
+}
+/*fin asiento a9*/
+/*asiento a10*/
+#A9{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#a9:checked ~ #A9{
+    background-color: #7AF57F;
+}
+/*fin asiento a10*/
+/*fin fila 4*/
+/*inicio fila 5*/
+.filas .filas-5{
+    margin: 0;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.filas .filas-5 .left{
+    margin: 0 150px;
+}
+.filas .filas-5 .right{
+    margin: 0 150px;
+}
+/*asiento b3*/
+#B3{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#b3:checked ~ #B3{
+    background-color: #7AF57F;
+}
+/*asiento b4*/
+#B4{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#b4:checked ~ #B4{
+    background-color: #7AF57F;
+}
+/*asiento b7*/
+#B7{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#b7:checked ~ #B7{
+    background-color: #7AF57F;
+}
+/*asiento b8*/
+#B8{
+    border: 0;
+    background-color: #D9D9D9;
+    padding: 10px 40px;
+    font-size: 30px;
+}
+#b8:checked ~ #B8{
+    background-color: #7AF57F;
+}
+/*fin fila 5*/
 #asiento:hover{
     cursor: pointer;
 }
