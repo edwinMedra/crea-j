@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #E3DDDD;
+    font-family: "bayon";
+}
+/* MODIFICANDO IMG INICIAL Y TITULO */
+.antigua-y-barbuda {
+    position: relative;
+    width: 100%; 
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.img-antigua-y-barbuda {
+    display: block;
+    width: 100%; 
+    filter: brightness(50%);
+}
+.texto-titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: "Red hat Display";
+    letter-spacing: 4px;
+}
+.vuelosDisponibles {
+    width: 100%;
+    background-color: #E3DDDD;
+    padding: 70px 60px;
+}
