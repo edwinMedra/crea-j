@@ -49,6 +49,9 @@ input[type="checkbox"]{
     display: none;
 }
 /*asientos de la sección VIP a1*/
+.filas{
+    margin: 30px 0;
+}
 .filas .filas-1{
     margin: 40px 0;
     margin-bottom: 0;
