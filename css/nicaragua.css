@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    z-index: 1;
+}
+body{
+    background-color: #ECEBEB;
+    font-family: "red hat display";
+}
+/*imagen principal de la pagina web*/
+.back img{
+width: 100%;
+filter: brightness(50%);
+margin-top: 97px;
+}
+.back .titulo{
+    position: absolute;
+    top: 50%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: "Be vietnam pro";
+    font-size: 65px;
+}
+/*fin imagen principal*/
+/*inicio de los aeropuertos principales*/
+.start{
+    color: #8B8B8B;
+    margin: 40px 80px;
+    font-size: 30px;
+}
+/*aeropuertos de paises*/
+.horarios{
+    margin: 10px 30px;
+    margin-bottom: 0;
+}
+.aero{
+    background-color: white;
+    width: max-content;
+    margin: 30px auto;
+    border:  solid black 1px;
+    border-radius: 28px;
+    display: flex;
+}
+/*origen y destino*/
+.padre{
+    border: black solid 1px;
+    border-radius: 27px;
+    width: max-content;
+    display: flex;
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+.padre .left{
+    margin: 0;
+    display: flex;
+    padding: 0 20px;
+}
+.padre .left .left-text{
+    margin-top: 5px;
+    padding: 0;
+}
+.padre .barrita img{
+    height: 55px;
+    position: absolute;
+    margin-top: -10px;
+}
+.padre .left-img{
+    width: 10px;
+    padding-right: 30px;
+}
+/*ida y vuelta*/
+.padre-1{
+    border: black solid 1px;
+    border-radius: 27px;
+    width: max-content;
+    display: flex;
+    padding: 10px 0px;
+}
+.padre-1 .left{
+    margin: 0;
+    display: flex;
+    padding: 0 31px;
+}
+.padre-1 .left .left-text{
+    margin-top: 5px;
+    padding: 0;
+}
+.padre-1 .left-img{
+    width: 10px;
+    padding-right: 25px;
+}
+.padre-1 .barrita img{
+    width: 2px;
+    height: 55px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 8px;
+}
+.img img{
+    width: 350px;
+    height: 230px;
+    border-radius: 30px;
+}
+.boton button{
+    background-color: #345D9B;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.boton{
+    width: max-content;
+    margin: 10px auto;
+
+}
