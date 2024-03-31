@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ECEBEB;
+    font-family: "red hat display";
+}
+.tituloInicial{
+    color: #8B8B8B;
+    margin: 50px 80px;
+    font-size: 30px;
+}
+.cajaGrande {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* VUELO NORMAL */
+.vueloNormal {
+    display: flex;
+    width: 1000px;
+    background-color: #0049B6;
+    border-radius: 40px;
+    position: relative;
+    margin: 20px 0;
+}
+.imgVueloNormal {
+    width: 450px;
+    border-radius: 40px;
+}
+.datosNormal {
+    width: 100%;
+}
+.textoNormal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 0;
+}
+.textoNormal h2 {
+    margin: 20px 0;
+    font-family: "bayon";
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.textoNormal button {
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #0049B6;
+    text-transform: uppercase;
+    font-family: "bayon";
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+}
+.textoNormal button:hover {
+    background-color: #0049B6;
+    color: white;
+    border: 2px solid white;
+}
+.logoVueloNormal {
+    width: 60px;
+    position: absolute;
+    bottom: 10px;
+    right: 24px;
+}
+/* VUELO ESPECIAL */
+.vueloEspecial {
+    display: flex;
+    width: 1000px;
+    background-color: white;
+    border-radius: 40px;
+    position: relative;
+    margin: 20px 0;
+}
+.imgVueloEspecial {
+    width: 250px;
+    border-radius: 40px;
+}
+.datosEspecial {
+    width: 100%;
+}
+.textoEspecial {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #273758;
+    padding: 10px 0;
+}
+.textoEspecial h2 {
+    margin: 20px 0;
+    font-family: "bayon";
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.textoEspecial button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #345D9B;
+    color: white;
+    text-transform: uppercase;
+    font-family: "bayon";
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+}
+.textoEspecial button:hover {
+    background-color: white;
+    color: #345D9B;
+    border: 2px solid #345D9B;
+}
+.logoVueloEspecial {
+    width: 60px;
+    position: absolute;
+    bottom: 10px;
+    right: 30%;
+}
