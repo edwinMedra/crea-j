@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ECEBEB;
+    font-family: "red hat display";
+}
+.divRelative {
+    position: relative;
+}
+footer {
+    position: relative;
+    margin-top: 800px;
+}
+/* IMAGEN INICIAL */
+.seccionInicial img{
+    width: 100%;
+    filter: brightness(50%);
+}
+.seccionInicial h1 {
+    position: absolute;
+    font-family: "red hat display";
+    font-weight: 200;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.seccionPasos {
+    width: 1000px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px 0;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.seccionPasos .parteArriba {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.parteArriba p {
+    font-size: 20px;
+    margin-left: 100px;
+}
+.parteArriba img {
+    width: 60px;
+    margin-left: 300px;
+}
+.seccionPasos .padreDatos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar verticalmente */
+}
+.paso1, .paso2, .paso3 {
+    margin: 20px 0;
+}
+.paso1 p, .paso2 p, .paso3 p {
+    color: #273758;
+    margin: 0 0 20px 0;
+}
+.paso1 p span, .paso2 p span, .paso3 p span {
+    font-weight: bolder;
+}
+.paso1 img, .paso2 img, .paso3 img {
+    width: 800px;
+}
