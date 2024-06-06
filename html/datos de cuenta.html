@@ -81,8 +81,7 @@
             </div>
 
             <!--FORMULARIO NOMBRE Y APELLIDO-->
-            <div class="nombreYapellido"> 
-                <p>Nombre y Apellido</p><p class="asterisco">*</p>
+            <div class="nombreYapellido"> <p>Nombre y Apellido</p><p class="asterisco">*</p>
             </div>
             <div><label for="name"><!--Nombre:--></label><input type="text" id="name" name="nombre" class="formuNombre"></div>
 
@@ -95,27 +94,99 @@
             <div><label for="name"></label> <input type="text" id="dui" name="dui" class="formuDui"></div>
 
             <!--FORMULARIO FECHA DE NACIMIENTO-->
-            <div class="meses"> 
+            <div class="fechaNacimiento"> 
                 <p>Fecha de Nacimiento</p><p class="asterisco">*</p>
             </div>
+            <div><form>
+                <label for="fechaNacimiento"></label>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" class="formuNacimiento"></form>
+            </div>
+    
+            <!--FORMULARIO CORREO-->
+            <div class="correoElectronico"> 
+                <p>Correo Electrónico</p>
+            </div>
+             <div class="espacio_correo">
+                <form>
+                    <label for="correo"></label>
+                    <input type="email" id="correo" name="correo" required class="correo">
+                </form>
+                <div class="cambiar_datos"><p class="letra_cambiardatos">Cambiar datos</p></div>
+             </div>
 
-            <form>
-                <label for="meses"></label>
-                <select id="meses" name="meses" class="formuMeses">
-                    <option value="enero">Enero</option>
-                    <option value="febrero">Febrero</option>
-                    <option value="marzo">Marzo</option>
-                    <option value="abril">Abril</option>
-                    <option value="mayo">Mayo</option>
-                    <option value="junio">Junio</option>
-                    <option value="julio">Julio</option>
-                    <option value="agosto">Agosto</option>
-                    <option value="septiembre">Septiembre</option>
-                    <option value="octubre">Octubre</option>
-                    <option value="noviembre">Noviembre</option>
-                    <option value="diciembre">Diciembre</option>
-                </select>
-            </form>
+            <!--FORMULARIO PASAPORTE-->
+            <div class="pasaporte">
+                <p>Pasaporte</p><p class="asterisco">*</p>
+            </div>
+            <div><label for="Pasaporte"></label><input type="text" id="Pasaporte" name="Pasaporte" class="formuPasaporte"></div>
+
+            <!--FORMULARIO PAIS DE ORIGEN-->
+            <div class="paisOrigen">
+                <p>País de origen</p><p class="asterisco">*</p>
+            </div>
+
+            <div>
+                <form>
+                    <label for="pais"></label>
+                    <select id="pais" name="pais" class="formupais">
+                        <option value="Antigua y Barbuda">Antigua y Barbuda</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Bahamas">Bahamas</option>
+                        <option value="Barbados">Barbados</option>
+                        <option value="Belice">Belice</option>
+                        <option value="Bolivia">Bolivia</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Canadá">Canadá</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Costa Rica">Costa Rica</option>
+                        <option value="Cuba">Cuba</option>
+                        <option value="Dominica">Dominica</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="El Salvador">El Salvador</option>
+                        <option value="Estados Unidos">Estados Unidos</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Guyana">Guyana</option>
+                        <option value="Haití">Haití</option>
+                        <option value="Honduras">Honduras</option>
+                        <option value="Jamaica">Jamaica</option>
+                        <option value="México">México</option>
+                        <option value="Nicaragua">Nicaragua</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="Panamá">Panamá</option>
+                        <option value="Paraguay">Paraguay</option>
+                        <option value="Perú">Perú</option>
+                        <option value="República Dominicana">República Dominicana</option>
+                        <option value="San Cristóbal y Nieves">San Cristóbal y Nieves</option>
+                        <option value="San Vicente y las Granadinas">San Vicente y las Granadinas</option>
+                        <option value="Santa Lucía">Santa Lucía</option>
+                        <option value="Surinam">Surinam</option>
+                        <option value="Trinidad y Tobago">Trinidad y Tobago</option>
+                        <option value="Venezuela">Venezuela</option>
+                    </select>
+                </form>
+            </div>
+
+             <!--FORMULARIO DIRECCION-->
+             <div class="direccion"> 
+                <p>Dirección</p>
+            </div>
+             <div class="espacio_direccion">
+                <form>
+                    <label for="direccion"></label>
+                    <input type="name" id="direccion" name="direccion" required class="formudireccion">
+                </form>
+                <div class="cambiar_datos"><p class="letra_cambiardatos">Cambiar datos</p></div>
+             </div>
+
+
+
+
+
+
+            </div>
+
 
 
 
