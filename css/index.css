@@ -6,6 +6,7 @@ body{
     background-color: #E3DDDD;
     font-family: "bayon";
 }
+
 .contenedor img{
     width: 100%;
     height: 100%;
@@ -31,6 +32,7 @@ body{
   margin: 25px;
   border-radius: 30px;
   border: solid black 1.5px;
+  font-family: "bayon";
 }
 .padre-1{
   width:400px;
@@ -57,6 +59,7 @@ display: flex;
 /*div izquiera de padre*/
 .vuelo .vuelo-left h4{
   font-size: 22px;
+  font-family: "bayon";
 }
 .vuelo .vuelo-left{
 width: 200px;
@@ -188,6 +191,7 @@ height: max-content;
 .ofert-viajes{
   margin: 20px auto;
   width: max-content;
+  font-family: "bayon";
 }
 .ofert-viajes h1{
   text-align: center;
@@ -229,6 +233,7 @@ display: inline-flex;
 .mas-info{
   text-align: center;
   margin-top: 70px;
+  font-family: "bayon";
 }
 input[type="date"]{
   background-color: white;
