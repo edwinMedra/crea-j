@@ -14,7 +14,6 @@ body{
 .back img{
     width: 100%;
     filter: brightness(50%);
-    margin-top: 95px;
 }
 .titulo{
     position: absolute;
@@ -23,7 +22,7 @@ body{
     color: white;
     font-size: 50px;
     font-family: "red hat display";
-    margin-top: -350px;
+    margin-top: -250px;
 }
 .info{
     margin: 30px 250px;
