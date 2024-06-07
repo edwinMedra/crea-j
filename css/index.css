@@ -6,7 +6,9 @@ body{
     background-color: #E3DDDD;
     font-family: "bayon";
 }
-
+header{
+  color: aqua;
+}
 .contenedor img{
     width: 100%;
     height: 100%;
@@ -73,7 +75,7 @@ height: max-content;
 /*division de vuelo*/
  #barita img{
 position: absolute;
-height: 93px;
+height: 80px;
 }
 #textito{
   position: absolute;
@@ -136,7 +138,7 @@ height: max-content;
   }
   .fecha #barita-1 img{
     position: absolute;
-    height: 90px;
+    height: 75px;
     margin-left: 10px;
     width: 3px;
     }
