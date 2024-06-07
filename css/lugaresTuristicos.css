@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: "bayon";
+    z-index: 1;
+}
+/*logo de la pagina web*/
+#logo {
+    width: 100px;
+}
+.nav-link{
+    color: #273758;
+    font-size: 20px;
+}
+/*imagen principal*/
+/*imagen principal de la pagina web*/
+.back #img{
+    width: 100%;
+    filter: brightness(50%);
+}
+.back .titulo{
+        position: absolute;
+        top: 30%;
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-family: "Be vietnam pro";
+        font-size: 45px;
+}
+nav{
+    z-index: 1;
+}
+#texto {
+    color: black;
+    background-color: white;
+    text-align: left;
+}
