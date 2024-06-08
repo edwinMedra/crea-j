@@ -2,3 +2,46 @@
     margin: 0;
     padding: 0;
 }
+.back img{
+    width: 100%;
+}
+.titulo{
+    font-family: "bayon";
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+.titulo span{
+    justify-content: space-between;
+    margin: 0 8%;
+    opacity: 60%;
+}
+.titulo .titulo-son {
+    font-size: 30px;
+    text-align: right;
+    margin-right: 50px;
+    opacity: 90%;
+}
+/* Botones de imagen principal */
+.botones {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: -25%;
+}
+.botones > div button{
+    background-color: #273758;
+    padding: 20px 60px;
+    margin: 0 30px;
+    color: white;
+    font-family: "Be Vietnam Pro";
+    border-radius: 30px;
+    border: 0;
+    font-size: 20px;
+}
+.botones .boton-right button {
+    background-color: #345D9B;
+}
