@@ -14,11 +14,10 @@ body{
 .back img{
 width: 100%;
 filter: brightness(50%);
-margin-top: 97px;
 }
 .back .titulo{
     position: absolute;
-    margin-top: -350px;
+    margin-top: -450px;
     color: white;
     width: 100%;
     text-align: center;
