@@ -62,3 +62,21 @@ body{
     background-color: white;
     border: 1px solid black;
 }
+#alimentos {
+    background-color: #345D9B;
+    border-radius: 0 20px 20px 0;
+}
+@media screen and (max-width:768px){      
+      .back .titulo {
+        position: absolute;
+        top: 12%;
+        font-size: 40px;
+      }
+      #alimentos1 {
+        margin:10px auto;
+      }
+      #alimentos {
+        background-color: #345D9B;
+        border-radius: 20px;
+    }
+}
