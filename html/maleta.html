@@ -1,228 +1,174 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Importación de librerias-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="../imagen/header/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/maleta.css">
 
-    <title>¿Qué puedo llevar en mi maleta?</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Importación de librerias-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="../imagen/header/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../css/header.css" />
+  <link rel="stylesheet" href="../css/pie.css" />
+  <link rel="stylesheet" href="../css/maleta.css" />
+  <title>¿Qué puedo llevar en mi maleta?</title>
 </head>
+
 <body>
-    <!---Header de pagina web hecho con frameworks-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="../imagen/estoyAnsioso/esflyInfo.png" class="" id="logo" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="Reservarvuelos.html">Reserva tu vuelo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ofertasYDestinos.html">Ofertas y destinos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="check-in.html">Check-in</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
-          </span>
-          <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+  <!---Header de pagina web hecho con frameworks-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="../imagen/estoyAnsioso/esflyInfo.png" class="" id="logo"
+          alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Reservarvuelos.html">Reserva tu vuelo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ofertasYDestinos.html">Ofertas y destinos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="check-in.html">Check-in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+        <span class="navbar-text"> </span>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Buscar
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--Fin header-->
+  <div class="back">
+    <img src="../imagen/maleta/maleta2.png" alt="" />
+    <div class="titulo">
+      <p>¿Qué puedo llevar en mi maleta?</p>
+    </div>
+  </div>
+  <div class="container text-center  my-5 rounded-5 w-50 py-2 pt-4" id="tipos">
+    <p><b>Tipos de equipaje:</b></p>
+  </div>
+  <!--tipos de viajes-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col my-3">
+        <div class="container rounded-5 px-3 pb-2" id="articulo">
+          <p class="fs-5 pt-5 text-center"><b>Artículo personal</b></p>
+          <div class="text-center"><img src="../imagen/maleta/articulo personal.png" alt="" class="w-50 "></div>
+          <p>Puede ser una cartera, morral, pañalera, un bolso para llevar un portátil o un paquete.</p>
+        <ul>
+          <li>Medidas máximas: 45 x 35 x 25 cm (alto, largo y ancho).</li>
+          <li>Asegúrate que puedas ubicarlo debajo del asiento delantero.</li>
+          <li>En todas nuestras tarifas podrás llevar gratis un artículo personal.</li>
+        </ul>
         </div>
       </div>
-    </nav>
-      <!--Fin header-->
+      <div class="col my-3">
+        <div class="container rounded-5 px-3 pb-2" id="articulo">
+          <p class="fs-5 pt-5 text-center"><b>Equipaje de mano</b></p>
+          <div class="text-center"><img src="../imagen/maleta/equipaje de mano.png" alt="" class="w-50 "></div>
+          <p class="my-5">Puedes llevarlo contigo en la cabina del avión y ubicarlo en el compartimiento superior.</p>
+        <ul>
+          <li class="my-4">Medidas máximas: 55 x 35 x 25 cm (alto, largo y ancho), incluyendo ruedas y manijas.</li>
+          <li class="my-4">Peso máximo: 10 kg. Si tu equipaje de mano no cumple con las condiciones, deberá registrarse como equipaje de bodega.</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---->
 
-
-     <!--Imagen principal de la pagina web-->
-    <div class="back">
-        <img src="../imagen/maleta/maleta2.png" class="img-fluid" alt="...">   
-        <div class="titulo">
-            <p>¿Qué puedo llevar en mi maleta?</p>
-
-            <!--CONTENIDO   DE LA PAGINA-->
-
-            
-            <div class="contenido">
-
-              <div class="tipos_equipaje">
-                <p>Tipos de equipaje:</p>
-              </div>
-
-                <!--DATOS DE MALETAS-->
-                <div class="tipos">
-                <div class="tipos-1">
-                    <div class="text-1">
-                        <h4>Artículo personal</h4>
-                    </div>
-                    <img src="../imagen/maleta/articulo personal.png" alt="">
-                    <div class="text-2">
-                        <p>Puede ser una cartera, morral, pañalera, un bolso para llevar un portátil o un paquete. </p> 
-                        <p>-Medidas máximas: 45 x 35 x 25 cm (alto, largo y ancho).</p>
-                        <p>-Asegúrate que puedas ubicarlo debajo del asiento delantero.</p>
-                        <p>-En todas nuestras tarifas podrás llevar gratis un artículo personal.</p>
-                    </div>
-                        
-                </div>
-    
-                <div class="tipos-1">
-                    <div class="text-1">
-                        <h4>Equipaje de mano</h4>
-                    </div>
-                    <img src="../imagen/maleta/equipaje de mano.png" alt="">
-                    <div class="text-2">
-                        <p>Puedes llevarlo contigo en la cabina del avión y ubicarlo en el compartimiento superior. </p> 
-                        <p>-Medidas máximas: 55 x 35 x 25 cm (alto, largo y ancho), incluyendo ruedas y manijas.</p>
-                        <p>-Peso máximo: 10 kg. Si tu equipaje de mano no cumple con las condiciones, 
-                            deberá registrarse como equipaje de bodega.</p>
-                    </div>
-                </div>
-                </div>
-
-
-                  <div class="tipos-2">
-                    <div class="derecha_tipo">
-                      <img src="../imagen/maleta/equipaje de bodega.png" alt="">
-                    </div>
-                    <div class="izquierda_tipo">
-                      <div class="text-1"><h4>Equipaje de mano</h4></div>
-                      <div class="text-2">
-                        <p>Regístralo en el counter del aeropuerto antes de ir a la sala de abordaje. </p> 
-                        <p>-Medidas máximas: no debe exceder los 158 cm de dimensión total (largo + ancho + alto).</p>
-                        <p>-Peso máximo: 23 kg en Clase económica y 32 kg en Clase ejecutiva.</p></div>
-                    </div>
-                  </div>
-
-                <div class="objetos_en_equipaje">
-
-                  <div class="objeto-1">
-                    <p>Objetos en el equipaje:</p>
-                  </div>
-
-                  <div class="objeto-2">
-                    <div class="ob2-derecha">
-                      <p class="question">¿Puedo llevar líquidos en mi equipaje de mano?</p>
-                      <p>En tu equipaje de mano está permitido llevar líquidos en envases que no superen los 100 ml.  
-                        Deberán ir dentro de una bolsa de plástico transparente con cierre adhesivo o cremallera cuya 
-                        capacidad máxima sea 1 litro.</p>
-                        
-                      <p>Estos no deben superar las medidas establecidas de 100 ml por producto 
-                        y 1 litro en el total de todos los productos.</p>
-
-                        <li>Geles</li>
-                        </li>Aerosoles</li>
-                        </li>Desinfectante de manos</li>
-                      </p>
-
-                    </div>
-                    <div class="ob2-izquierda">
-                      <img src="../imagen/maleta/liquidos_en_equipaje.png" alt="">
-                    </div>
-                  </div>
-
-                  <div class="objeto-3">
-                    <div class="ob3-derecha">
-                      <p class="question">¿Qué artículos son restringidos en mi equipaje?</p>
-                      <li>Aerosoles inflamables</li>
-                      <li>Armasde fuego y eléctricas (taser)</li>
-                      <li>Baterías extraíbles o baterías portátiles</li>
-                      <li>Bebidas alcohólicas</li>
-                      <li>Botellas de oxígeno llenas (pipetas)</li>
-                      <li>Combustibles</li>
-                      <li>Dispositivos de oxígeno líquido</li>
-                      <li>Elementos con baterías externas</li>
-                      <li>Elementos discapacitadores</li>
-                      <li>Equipos electrónicos dañados</li>
-                    </div>
-                    <div class="ob3-izquierda">
-                      <li>Fuegos artificiales</li>
-                      <li>Maletines, cajas y sacos de seguridad</li>
-                      <li>Pinturas</li>
-                      <li>Tanques</li>
-                      <li>Vehículos impulsados por baterías externas</li> 
-                      <li>Artículos para niños</li>
-                      <li>Equipo motorizado</li>
-                      <li>MacBook Pro</li>
-                      <li>Oxígeno</li>
-                      <li>Repelente</li>
-                    </div>
-                  </div>
-
-                  <div class="objeto-4">
-                    <div class="ob4-derecha">
-                      <p class="question">¿Qué artículos necesitan aprobación para ir en el equipaje?</p>
-                      <li>Ayudas motrices accionadas</li>
-                      <li>Baterías de litio de repuesto</li>
-                      <li>Baterías de ion litio (recargables)</li>
-                      <li>Baterías de metal de litio (no recargables)</li>
-                      <li>Barómetros o termómetros de mercurio para usos meteorológicos</li>
-                      <li>Dispositivos accionados con pilas o baterías de litio (PED)</li>
-                      <li>Dispositivos de seguridad autoinflable con cartuchos pequeños </li>
-                    </div>
-
-                    <div class="ob4-izquierda">
-                      <li>Chaleco salvavidas</li>
-                      <li>Otros dispositivos permitidos</li>
-                      <li>Drones</li>
-                      <li>Equipo de supervisión de agentes químicos</li>
-                      <li>Hielo seco</li>
-                      <li>Hornillos para acampada y contenedores de combustible</li>
-                      <li>Mochila de rescate para avalancha</li>
-                      <li>Munición embalada en forma segura</li>
-                    </div>
-                  </div>
-
-                  <div class="objeto-5">
-                    <div class="ob5-derecha">
-                      <img src="../imagen/maleta/alimentos_en_equipaje.png" alt="">
-                    </div>
-                    <div class="ob5-izquierda">
-                      <p class="question">¿Puedo llevar alimentos en mi equipaje?</p>
-
-                      <li>Evita llevar alimentos perecederos como vegetales, carnes, frutas o leche.</li>
-                      <li>Solo podrás llevarlos en cantidades pequeñas y debidamente empacados, únicamente dentro del equipaje de mano.</li>
-                      <li>Evita llevar alimentos en piezas adicionales sujetas a espacio.</li>
-                      <li>En el equipaje de bodega o Stand By no está permitido llevar alimentos perecederos.</li>
-                      <li>Verifica en los formularios de aduana, si los alimentos que llevas deben ser declarados.</li>
-                    </div>
-                  </div>
-
-
-
-
-
-                </div>
-
-
-
-
-                 
-
-
-
-
-
-
-
-
-            </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <div class="container p-4 w-75 rounded-5" id="bodega">
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col">
+          <div class="mx-auto my-auto" id="bodega1"><img src="../imagen/maleta/equipaje de bodega.png" alt="" class="w-50"></div>
+        </div>
+        <div class="col">
+          <p class="fs-5"><b>Equipaje de bodega</b></p>
+          <p class="" id="registro">Regístralo en el counter del aeropuerto antes de ir a la sala de abordaje.</p>
+        <ul id="registro">
+          <li class="my-2">Medidas máximas: no debe exceder los 158 cm de dimensión total (largo + ancho + alto).</li>
+          <li class="my-2">Peso máximo: 23 kg en Clase económica y 32 kg en Clase ejecutiva.</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center  my-5 rounded-5 w-50 py-2 pt-4" id="tipos">
+    <p><b>Objetos en el equipaje:</b></p>
+  </div>
+  <div class="container text-center " id="pLiquidos">
+    <div class="row">
+      <div class="col-sm-8 px-5 " id="liquidos">
+        <h2 class="text-white my-2">¿Puedo llevar líquidos en mi equipaje de mano?</h2>
+        <p class="text-white my-2">En tu equipaje de mano está permitido llevar líquidos en envases que no superen los 100 ml. Deberán ir dentro de una bolsa de plástico transparente con cierre adhesivo o cremallera cuya capacidad máxima sea 1 litro.</p>
+      <p class="text-white my-2">Estos no deben superar las medidas establecidas de 100 ml por producto y 1 litro en el total de todos los productos.</p>
+      <ul>
+        <li>Geles</li>
+        <li>Aerosoles</li>
+        <li>Desinfectante de manos</li>
+      </ul>
+      </div>
+      <div class="col-sm-4" id="liquidos1"><img src="../imagen/maleta/liquidos_en_equipaje.png" alt="" class="w-100"></div>
+    </div>
+  </div>
+  <div class="container my-5 p-4 rounded-4" id="restringidos">
+    <div class="container d-flex">
+      <h3><b>¿Qué artículos son restringidos en mi equipaje?</b></h3>
+      <div class="ms-5"><img src="../imagen/maleta/x.png" alt=""></div>
+    </div>
+    <div class="row my-3">
+      <div class="col">
+        <ul>
+          <li>Aerosoles inflamables</li>
+          <li>Armas eléctricas (taser)</li>
+          <li>Baterías extraíbles o baterías portátiles</li>
+          <li>Bebidas alcohólicas</li>
+          <li>Botellas de oxígeno llenas (pipetas)</li>
+          <li>Combustibles</li>
+          <li>Dispositivos de oxígeno líquido</li>
+          <li>Elementos con baterías externas</li>
+          <li>Elementos discapacitadores</li>
+          <li>Equipos electrónicos dañados</li>
+        </ul>
+      </div>
+      <div class="col">
+        <ul>
+          <li>Fuegos artificiales</li>
+          <li>Maletines, cajas y sacos de seguridad</li>
+          <li>Pinturas</li>
+          <li>Tanques</li>
+          <li>Vehículos impulsados por baterías externas </li>
+          <li>Artículos para niños</li>
+          <li>Equipo motorizado</li>
+          <li>MacBook Pro</li>
+          <li>Oxígeno</li>
+          <li>Repelente</li>
+        </ul>
+      </div>
+    </div>
+  
+  </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-      
 </html>
