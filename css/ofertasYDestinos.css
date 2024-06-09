@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ECEBEB;
+}
+.back img{
+    width: 100%;
+}
+.titulo{
+    font-family: "bayon";
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+.titulo span{
+    justify-content: space-between;
+    margin: 0 8%;
+    opacity: 60%;
+}
+.titulo .titulo-son {
+    font-size: 30px;
+    text-align: right;
+    margin-right: 50px;
+    opacity: 90%;
+}
+/* Botones de imagen principal */
+.botones {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: -25%;
+}
+.botones > div button{
+    background-color: #273758;
+    padding: 20px 60px;
+    margin: 0 30px;
+    color: white;
+    font-family: "Be Vietnam Pro";
+    border-radius: 30px;
+    border: 0;
+    font-size: 20px;
+}
+.botones .boton-right button {
+    background-color: #345D9B;
+}
+/*empieza galeria de viajes*/
+.viaje img{
+    width: 300px;
+}
+.viaje .viaje-titulo{
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: -50px;
+}
+.viaje-titulo #rectangulo img{
+    position: absolute;
+    width: 301px;
+    height: 50px;
+    border-radius: 0 0 20px 20px;
+}
+.viaje .viaje-titulo img{
+    width: 100%;
+    position: absolute;
+    
+}
+.viaje .viaje-titulo .left {
+    width: 50%;
+    border-radius: 0 0 0 20px;
+    z-index: 1;
+}
+.viaje .viaje-titulo .right {
+    width: 50%;
+    border-radius: 0 0 20px 0px;
+    z-index: 1;
+}
+/*fin galeria de viajes*/
+/*inicia informacion*/
+.iguazu {
+    background-color: white;
+    width: min-content;
+}
+.iguazu img {
+    width: 400px;
+}
+.iguazu p {
+    text-align: justify;
+}
+.iguazu button {
+    background-color: #345D9B;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+}
+
+#tablita .col  {
+   margin: 0 5%;
+
+}
+/*pagina de promociones*/
+.end img{
+    width: 100%;
+    z-index: -1;
+}
+#info {
+    position: absolute;
+    z-index: 1;
+    margin-top: -350px;
+    margin-left: 50px;
+}
+#info #vaca {
+    font-size: 70px;
+    font-family: "bayon";
+}
+#info #descuento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+}
+#info #descuento img{
+    width: 300px;
+    position: absolute;
+}
+/*responsive de pagina web*/
+@media screen and (max-width:768px) {
+    .titulo {
+        top: 200px;
+        font-size: 50px;
+    }
+    .botones {
+        top: 350px;
+    }
+    .botones > div button{
+        background-color: #273758;
+        padding: 10px 30px;
+        margin: 0 90px;
+        color: white;
+        font-family: "Be Vietnam Pro";
+        border-radius: 30px;
+        border: 0;
+        font-size: 15px;
+    }
+
+    #rectangulo img {
+        margin-left: 69px;
+    }
+    #tablita .col {
+        margin-top: 30px;
+    }
+    #info {
+        position: absolute;
+        margin-top: -190px;
+        margin-left: 50px;
+    }
+    #info #vaca {
+        font-size: 30px;
+        font-family: "bayon";
+    }
+    #info #descuento {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: white;
+    }
+    #info #descuento img{
+        width: 200px;
+        position: absolute;
+    }
+}

@@ -1,54 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!--Comentario sobre el link para importar la tipografia-->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-     <link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="../css/header.css">
-     <link rel="stylesheet" href="../css/pie.css">
-     <!--Fin tipografia-->
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Comentario sobre el link para importar la tipografia-->
+    <link rel="shortcut icon" href="../imagen/header/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+        <link rel="stylesheet" href="../css/ofertasYDestinos.css">
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/pie.css" />
+    <!--Fin tipografia-->
+    <title>Ofertas y Destinos</title>
 </head>
+
 <body>
-    
     <!--Inicio header-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="../imagen/estoyAnsioso/esflyInfo.png" class="" id="logo" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="Reservarvuelos.html">Reserva tu vuelo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ofertasYDestinos.html">Ofertas y destinos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="check-in.html">Check-in</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
-              </li>
-            </ul>
-            <span class="navbar-text">
-            </span>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-              </form>
+            <a class="navbar-brand" href="index.html"><img src="../imagen/estoyAnsioso/esflyInfo.png" class="" id="logo"
+                    alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Reservarvuelos.html">Reserva tu vuelo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ofertasYDestinos.html">Ofertas y destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="check-in.html">Check-in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <span class="navbar-text"> </span>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">
+                        Buscar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--Fin header-->
+<div class="back">
+<img src="../imagen/ofertasyDestinos/back.png" alt="">
+<div class="titulo">    <span>STATUE OF</span> <span>LIBERTY</span>   
+    <div class="titulo-son">viajes a Estados unidos (new york)</div>    </div>
+    <!--Botones de imagen principal-->
+    <div class="botones">
+        <div class="boton-left">
+            <button type="button">Buscar vuelo</button>
+        </div>
+        <div class="boton-right">
+            <button type="button">Ver información</button>
+        </div>
+    </div>
+    <!---->
+</div>
+<!--Parte principal de pagina web-->
+<div class="container my-5">
+    <p class="fs-5 mt-5" style="color: #8B8B8B; font-family: 'red hat display';">Ofertas de viajes ></p>
+</div>
+<!---->
+<!--Galeria de viajes disponibles en la plaforma web-->
+<!--Primera galeria de viajes-->
+<div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div class="viaje">
+            <img src="/imagen/ofertasyDestinos/guatemala.png">
+            <div class="viaje-titulo">
+                <div id="rectangulo"><img src="../imagen/ofertasyDestinos/rectangulo.png" alt=""></div>
+                <div class="left"><b>Guatemala</b>
+                    <p>Ciudad de Guatemala</p>
+                </div>
+                <div class="right">
+                    Por trayecto desde: <br>
+                    <b>USD 80</b>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="viaje">
+            <img src="/imagen/ofertasyDestinos/belice.png">
+            <div class="viaje-titulo">
+                <div id="rectangulo"><img src="../imagen/ofertasyDestinos/rectangulo.png" alt=""></div>
+                <div class="left"><b>Belice</b>
+                    <p>Belmopán</p>
+                </div>
+                <div class="right">
+                    Por trayecto desde: <br>
+                    <b>USD 120</b>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="viaje">
+            <img src="/imagen/ofertasyDestinos/colombia.png">
+            <div class="viaje-titulo">
+                <div id="rectangulo"><img src="../imagen/ofertasyDestinos/rectangulo.png" alt=""></div>
+                <div class="left"><b>Colombia</b>
+                    <p>Bogotá</p>
+                </div>
+                <div class="right">
+                    Por trayecto desde: <br>
+                    <b>USD 170</b>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Segunda galeria de viajes-->
+  <div class="container text-center my-5">
+    <div class="row">
+      <div class="col">
+        <div class="viaje">
+            <img src="/imagen/ofertasyDestinos/peru.png">
+            <div class="viaje-titulo">
+                <div id="rectangulo"><img src="../imagen/ofertasyDestinos/rectangulo.png" alt=""></div>
+                <div class="left"><b>Perú</b>
+                    <p>Lima</p>
+                </div>
+                <div class="right">
+                    Por trayecto desde: <br>
+                    <b>USD 180</b>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="viaje">
+            <img src="/imagen/ofertasyDestinos/argentina.png">
+            <div class="viaje-titulo">
+                <div id="rectangulo"><img src="../imagen/ofertasyDestinos/rectangulo.png" alt=""></div>
+                <div class="left"><b>Argentina</b>
+                    <p>Buenos Aires</p>
+                </div>
+                <div class="right">
+                    Por trayecto desde: <br>
+                    <b>USD 180</b>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="viaje">
+            <img src="/imagen/ofertasyDestinos/venezuela.png">
+            <div class="viaje-titulo">
+                <div id="rectangulo"><img src="../imagen/ofertasyDestinos/rectangulo.png" alt=""></div>
+                <div class="left"><b>Venezuela</b>
+                    <p>Caracas</p>
+                </div>
+                <div class="right">
+                    Por trayecto desde: <br>
+                    <b>USD 180</b>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Tercera galeria-->
+<div class="container text-center my-5">
+    <div class="row">
+      <div class="col">
+        <div class="viaje">
+            <img src="/imagen/ofertasyDestinos/ecuador.png">
+            <div class="viaje-titulo">
+                <div id="rectangulo"><img src="../imagen/ofertasyDestinos/rectangulo.png" alt=""></div>
+                <div class="left"><b>Ecuador</b>
+                    <p>Quito</p>
+                </div>
+                <div class="right">
+                    Por trayecto desde: <br>
+                    <b>USD 180</b>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="viaje">
+            <img src="/imagen/ofertasyDestinos/panama.png">
+            <div class="viaje-titulo">
+                <div id="rectangulo"><img src="../imagen/ofertasyDestinos/rectangulo.png" alt=""></div>
+                <div class="left"><b>Panamá</b>
+                    <p>Ciudad de Panamá</p>
+                </div>
+                <div class="right">
+                    Por trayecto desde: <br>
+                    <b>USD 180</b>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="viaje">
+            <img src="/imagen/ofertasyDestinos/mexico.png">
+            <div class="viaje-titulo">
+                <div id="rectangulo"><img src="../imagen/ofertasyDestinos/rectangulo.png" alt=""></div>
+                <div class="left"><b>México</b>
+                    <p>CDMX</p>
+                </div>
+                <div class="right">
+                    Por trayecto desde: <br>
+                    <b>USD 180</b>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Fin de la galeria de viajes-->
+<!---->
+<!--Lugares turistico populares titulo-->
+<div class="container my-5">
+    <p class="fs-5 mt-5" style="color: #8B8B8B; font-family: 'red hat display';">Lugares turísticos populares ></p>
+<!--Columnas de informacion-->
+<div class="container text-center my-5" id="tablita">
+    <div class="row">
+      <div class="col">
+        <div class="iguazu">
+            <img src="../imagen/ofertasyDestinos/iguazu.png" alt="">
+            <div class="container">
+                <p class="text-center fs-5 my-3"><b>Cataratas de Iguazú (Brasil)</b></p>
+                <p>Este lugar es uno de los más espectaculares que ver en Latinoamérica. Cuando hablamos de maravillas naturales, pocas son tan impresionantes como las Cataratas de Iguazú. Son el sistema de cascadas más grande del mundo. De hecho, hay hasta 275 cataratas de varios tamaños. La Garganta del Diablo es la más grande y espectacular, aunque el conjunto te dejará sin palabras. </p>
+                <button type="button" class="py-1 px-3 my-2">Tomar vuelo</button>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="iguazu pb-5">
+            <img src="../imagen/ofertasyDestinos/uyuni.png" alt="">
+            <div class="container">
+                <p class="text-center fs-5 my-3"><b>Salar de Uyuni (Bolivia)</b></p>
+                <p>Se trata del salar más grande del mundo y el principal atractivo de Bolivia. ¡Tiene casi 11.000 kilómetros cuadrados de superficie! De hecho, los astronautas dicen que es el punto que más se refleja del planeta. Esta joya natural se encuentra en los Andes a casi 3.700 metros sobre el nivel del mar. </p>
+                <button type="button" class="py-1 px-3 mt-3">Tomar vuelo</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--segunda garleria de informacion-->
+  <div class="container text-center my-5" id="tablita">
+    <div class="row">
+      <div class="col">
+        <div class="iguazu">
+            <img src="../imagen/ofertasyDestinos/chile.png" alt="">
+            <div class="container">
+                <p class="text-center fs-5 my-3"><b> Parque Nacional Torres del Paine 
+                    (Chile)</b></p>
+                <p>Este parque nacional es uno de los más bonitos que ver en Sudamérica. Se encuentra en la Patagonia chilena y es una de las áreas silvestres más protegidas del país. En su interior podrás visitar valles, ríos, lagos o glaciares como el Grey, el más famoso. </p>
+                <button type="button" class="py-1 px-3 my-2">Tomar vuelo</button>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="iguazu">
+            <img src="../imagen/ofertasyDestinos/ecuador1.png" alt="">
+            <div class="container">
+                <p class="text-center fs-5 my-3"><b> Centro histórico de Quito (Ecuador)</b></p>
+                <p>EQuito es una de las ciudades más infravaloradas de América del Sur. ¡Empezando porque es la capital más alta del mundo! Es cierto que La Paz es más alta, pero la capital de Bolivia es Sucre. ¡Y también la más cercana al Ecuador!
+                    Sin embargo, el principal atractivo de Quito es su centro histórico. Fundado por los españoles en 1534, es el mejor conservado y menos alterado del continente.  </p>
+                <button type="button" class="py-1 px-3 my-2">Tomar vuelo</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Tercera galeria de informacion-->
+  <div class="container text-center my-5" id="tablita">
+    <div class="row">
+      <div class="col">
+        <div class="iguazu">
+            <img src="../imagen/ofertasyDestinos/argentina1.png" alt="">
+            <div class="container">
+                <p class="text-center fs-5 my-3"><b> Parque Nacional Los Glaciares y el Perito Moreno (Argentina)</b></p>
+                <p>El parque nacional más grande de Argentina no podía faltar en esta lista de los mejores lugares que ver en Latinoamérica. ¿Sabías que allí se encuentra la capa de hielo más grande fuera de las áreas polares? Alimenta, nada más y nada menos, que a 47 enormes glaciares.</p>
+                <button type="button" class="py-1 px-3 my-2">Tomar vuelo</button>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="iguazu">
+            <img src="../imagen/ofertasyDestinos/mexico1.png" alt="">
+            <div class="container">
+                <p class="text-center fs-5 my-3"><b> Chichén Itzá y Riviera Maya (México)</b></p>
+                <p>México es uno de los grandes destinos turísticos mundiales. ¡Tiene tantas cosas por ver! Desde el Chichén Itzá, las ruinas mayas más famosas del mundo, hasta las paradisiacas playas de la Riviera Maya. ¡No te vas a aburrir! Respecto a Chichén Itzá, visitar esta antigua capital maya y ver sus impresionantes templos como el de Kukulkán es una experiencia magnífica. </p>
+                <button type="button" class="py-1 px-3 my-2">Tomar vuelo</button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container my-5">
+    <p class="fs-5 mt-5" style="color: #8B8B8B; font-family: 'red hat display';">Ofertas de viajes ></p>
+</div>
+<div class="end">
+    <img src="../imagen/ofertasyDestinos/end.png" alt="">
+    <div class="container text-center" id="info">
+        <div class="row">
+          <div class="col" id="vaca">
+            VACACIONES MARZO Y AGOSTO 
+          </div>
+          <div class="col" id="descuento">
+            <img src="../imagen/ofertasyDestinos/circulo.png" alt="">
+            30% descuento
           </div>
         </div>
-      </nav>
-      <!--Fin header-->
-
+      </div>
+      
+</div>
+<!--Footer de pagina web-->
+<footer>
+    <div class="pie">
+        <div class="left-pie-img">
+            <img src="../imagen/index/pie-login.png" alt="">
+        </div>
+        <div class="datos-pie">
+            <div class="text-left-pie">
+                <h2>AYUDA</h2>
+                <ul>
+                    <li>Contactanos</li>
+                    <li>Metodos de pago</li>
+                    <li>Cambios y devoluciones</li>
+                    <li>Preguntas frecuentes</li>
+                    <li>Promociones</li>
+                </ul>
+            </div>
+            <div class="text-2/4-pie">
+                <h2>ACERCA DE</h2>
+                <ul>
+                    <li>Ubicación </li>
+                    <li>Redes</li>
+                </ul>
+            </div>
+            <div class="text-3/4-pie">
+                <h2>NOSOTROS</h2>
+                <ul>
+                    <li>Somos ESfly</li>
+                    <li>Alianzas y Beneficios</li>
+                    <li>Accesibilidad</li>
+                </ul>
+            </div>
+            <div class="text-derecha-pie">
+                <h2>SIGUENOS</h2>
+                <ul>
+                    <li><img src="../imagen/index/whatsapp.png" alt="whatsapp">7270-9970</li>
+                    <li><img src="../imagen/index/instagram.png" alt="instagram">ESfly_official</li>
+                    <li><img src="../imagen/index/facebook.png" alt="facebook">ESfly_official</li>
+                    <li><img src="../imagen/index/youtube.png" alt="youtube">ESfly_official</li>
+                </ul>
+            </div>
+        </div>
+        <hr class="br-footer">
+        <ul class="datosFinales-pie">
+            <li>Copyright © ESfly 2024</li>
+            <li>A STAR ALLIANCE MEMBER  <img src="../imagen/index/STA.png" alt="STAR ALLIANCE MEMBER"></li>
+            <li>Colegio Don Bosco 2 "B"</li>
+        </ul>
+    </div>
+    <div class="pie-telefono">
+        
+    </div>
+</footer>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </html>
