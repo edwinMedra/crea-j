@@ -10,24 +10,26 @@ header{
   color: aqua;
 }
 .contenedor img{
-    width: 100%;
-    height: 600px;
-    filter: brightness(40%);
-    object-fit: cover;
+  width: 100%;
+  height: 600px;
+  filter: brightness(40%);
+  object-fit: cover;
 }
   
-  .texto-superpuesto {
-    font-family: "Red hat Display";
-    color: white;
-    text-align: center;
-    font-size: 60px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    border-radius: 5px;
-  }
+.texto-superpuesto {
+  font-family: "Red hat Display";
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
 /*div padre*/
 .padre{
   background-color: white;
