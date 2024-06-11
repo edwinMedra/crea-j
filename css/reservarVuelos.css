@@ -16,13 +16,22 @@ body {
 #vuelos {
     border: 1px solid black;
 }
-.col {
-
+#personas{
+ background-color: blue;
 }
 #columna {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
 }
 #columna .col:not(:first-child) {
     border-left: 1px solid black ;
+}
+#botonB {
+  background-color: #273758;
+}
+#avion {
+  width: 35px;
+}
+#viajes > p {
+  font-size: 14px;
 }
