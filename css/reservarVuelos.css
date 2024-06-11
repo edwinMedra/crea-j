@@ -1,13 +1,28 @@
-.back img{
-    width: 100%;
-    filter: brightness(50%);
-    }
-    .back .titulo{
-        position: absolute;
-        top: 50%;
-        color: white;
-        width: 100%;
-        text-align: center;
-        font-family: "Be vietnam pro";
-        font-size: 65px;
-    }
+.back img {
+  width: 100%;
+}
+.back .titulo {
+  position: absolute;
+  top: 150px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: "Be vietnam pro";
+  font-size: 65px;
+}
+body {
+    background-color: #ECEBEB;
+}
+#vuelos {
+    border: 1px solid black;
+}
+.col {
+
+}
+#columna {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#columna .col:not(:first-child) {
+    border-left: 1px solid black ;
+}
