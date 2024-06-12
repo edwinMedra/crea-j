@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.back img {
+    width: 100%;
+    filter: brightness(50%);
+    z-index: -1;
+}
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "red hat display";
+    font-size: 100px;
+}
+#origen img {
+    width: 38px;
+    height: max-content;
+    margin: 4px 2px;
+}
+x {
+    font-size: 13px;
+}
+#origen #calendar {
+    width: 30px;
+    margin: 0 5px;
+}
+#boton button {
+    background-color: #345D9B;
+    
+}
+/*responsive de la pagina web */
+@media screen and (max-width:768px){
+    .titulo {
+        position: absolute;
+        top: 21%;
+        font-size: 60px;
+    }
+    div > x {
+    font-size: 10px;
+    }
+    .row {
+        display: inline-block;
+        width: 150%;
+        margin: 0 auto;
+    }
+    .col-4 {
+        margin: 0 17%;
+    }
+    #origen #calendar {
+        width: 20px;
+        margin-top: 6px;
+    }
+}
