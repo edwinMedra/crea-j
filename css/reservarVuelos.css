@@ -21,7 +21,7 @@ body {
 }
 #columna {
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 #columna .col:not(:first-child) {
     border-left: 1px solid black ;
@@ -30,7 +30,8 @@ body {
   background-color: #273758;
 }
 #avion {
-  width: 35px;
+  width: 30px;
+  height: max-content;
 }
 #viajes > p {
   font-size: 14px;
