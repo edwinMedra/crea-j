@@ -3,11 +3,8 @@
     padding: 0;
 }
 body{
-    background-color: #E3DDDD;
+    background-color: #ECEBEB;
     font-family: "bayon";
-}
-header{
-  color: aqua;
 }
 .contenedor img{
   width: 100%;
@@ -20,7 +17,7 @@ header{
   font-family: "Red hat Display";
   color: white;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -28,294 +25,50 @@ header{
   padding: 10px;
   border-radius: 5px;
 }
-
-
-/*div padre*/
-.padre{
-  background-color: white;
-  padding: 10px 50px;
-  margin: 25px;
-  border-radius: 30px;
-  border: solid black 1.5px;
-  font-family: "bayon";
+#carouselExampleInterval img {
+  max-height: 500px;
 }
-.padre-1{
-  width:400px;
-  text-align: center;
-}
-.padre-1 h3{
-  font-size: 30px;
-}
-.bloques{
-  display: flex;
-}
-.bloques > div{
-  margin: 0 20px;
-}
-.vuelo{  
-text-align: center;
-justify-content: center;
-background-color: white;
-border: black solid 3px;
-border-radius: 40px;
-display: flex;
-}
-/*fin div padre*/
-/*div izquiera de padre*/
-.vuelo .vuelo-left h4{
-  font-size: 22px;
-  font-family: "bayon";
-}
-.vuelo .vuelo-left{
-width: 200px;
-height: max-content;
-}
-.vuelo-left .avion{
-  width: max-content;
-  margin-left: 30px;
-  margin-bottom: 10px;
-}
-/*division de vuelo*/
- #barita img{
-position: absolute;
-height: 80px;
-}
-#textito{
-  position: absolute;
-  translate: -25px -45px;
-}
-#textito p{
-  font-size: 15px;
-}
-/*vuelos derecha*/
-.vuelo .vuelo-right h4{
-  font-size: 22px;
-}
-.vuelo .vuelo-right{
-width: 200px;
-height: max-content;
-}
-.vuelo-right .avion{
-  width: max-content;
-  margin-left: 30px;
-  margin-bottom: 10px;
-}
-/*cantidad de personas a viajar*/
-.personas{
-  width: max-content;
-  height: max-content;
-}
-.personas .opciones{
-  border-radius: 30px;
-  padding: 10px 30px;
-  border: 3px black solid;
-}
-.personas #opciones{
-  border: 0;
-  width: 30px;
-  position: absolute;
-  margin-top: 20px;
-  margin-right: 30px;
-}
-/*fecha*/
-.fecha{  
-  text-align: center;
-  justify-content: center;
-  background-color: white;
-  border: black solid 3px;
-  border-radius: 40px;
-  display: flex;
-  padding-right: 20px;
-  }
-  .fecha .vuelo-left h4{
-    font-size: 22px;
-  }
-  .fecha .vuelo-left{
-  width: 200px;
-  height: max-content;
-  }
-  .fecha .vuelo-left .avion{
-    width: max-content;
-    margin-left: 30px;
-    margin-bottom: 10px;
-  }
-  .fecha #barita-1 img{
-    position: absolute;
-    height: 75px;
-    margin-left: 10px;
-    width: 3px;
-    }
-/*fin fecha*/
-/*Fin personas a viajar*/
-/*boton deslisante*/
-.boton{
-  margin-left: 20px;
-  max-width: max-content;
-  padding: 5px 35px;
-  border-radius: 30px;
-  display: flex;
-}
-.boton h3{
-  margin: 0 10px;
-}
-#toggle{
-  display: none;
-}
-.slider {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-  background-color: #ccc;
-  border-radius: 34px 34px;
-  cursor: pointer;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  border-radius: 50%;
-  transition: .4s;
-}
-
-#toggle:checked + .slider {
-  background-color: #273758;
-}
-
-#toggle:checked + .slider:before {
-  transform: translateX(26px);
-}
-
-/*Fin boton deslisante*/
-/*ofertas de viajes*/
-.ofert-viajes{
-  margin: 20px auto;
-  width: max-content;
-  font-family: "bayon";
-}
-.ofert-viajes h1{
-  text-align: center;
-}
-.ofert-viajes > div{
-display: inline-flex;
-  width: max-content;
-  margin: 0 40px;
-}
-.ofert-viajes img{
+/*empieza galeria de viajes*/
+.viaje img{
   width: 300px;
 }
-.ofert-viajes .ofert-img{
-  width: max-content;
-}
-.ofert-viajes .texto{
-  height: max-content;
-  position: absolute;
-  width: 300px;
+.viaje .viaje-titulo{
+  width: 85%;
   display: flex;
-  margin-top: 180px;
-  text-align: center;
-  background-color: white;
-  border-radius: 10px;
-}
-.ofert-viajes .texto h4{
-  color: #273758;
-}
-.ofert-viajes .texto .texto-son{
-  width: max-content;
   margin: 0 auto;
+  font-size: 14px;
+  margin-top: -50px;
 }
-.ofert-viajes .texto .texto-son-right{
-  width: max-content;
-  margin: 0 auto;
-}
-/*fin ofertas viaje*/
-/*informacion*/
-.mas-info{
-  text-align: center;
-  margin-top: 70px;
-  font-family: "bayon";
-}
-input[type="date"]{
-  background-color: white;
-  border: 0;
-  font-family: "bayon";
-  font-size:17px;
-  margin-left: 10px;
+.viaje-titulo #rectangulo img{
   position: absolute;
-  margin-bottom: 5px;
-  margin-left: 20px;
+  width: 301px;
+  height: 50px;
+  border-radius: 0 0 20px 20px;
+  margin: 0 30px;
 }
-/*equipaje*/
-.mas-info .info-1{
-  background-color: #273758;
-  margin: 30px 145px;
-  display: flex;
-  border-radius: 50px;
-}
-.info-1 img{
-  width: 280px;
-}
-.info-1 .padre-2{
+.viaje .viaje-titulo img{
   width: 100%;
-  color: white;
-  margin: 20px;
+  position: absolute;
+  
 }
-.padre-2 .son-2{
-  font-size: 20px;
+.viaje .viaje-titulo .left {
+  width: 50%;
+  border-radius: 0 0 0 20px;
+  z-index: 1;
 }
-/*fij equipaje*/
-/*esfly info*/
-.mas-info h1{
-  text-align: center;
+.viaje .viaje-titulo .right {
+  width: 50%;
+  border-radius: 0 0 20px 0px;
+  z-index: 1;
 }
-.mas-info .info-2{
+/*fin galeria de viajes*/
+#info {
   background-color: #273758;
-  margin: 30px 145px;
-  display: flex;
-  border-radius: 50px;
 }
-.info-2 img{
-  width: 210px;
+#informa {
   background-color: white;
-  border-radius: 50px;
-  padding: 70px 40px;
 }
-.info-2 .padre-2{
-  width: 100%;
-  color: white;
-  margin: 20px;
-}
-.padre-2 .son-2{
-  font-size: 20px;
-}
-/*finnesfly info*/
-/*experiencia*/
-.mas-info .info-3{
-  background-color: #273758;
-  margin: 30px 145px;
-  display: flex;
-  border-radius: 50px;
-}
-.info-3 img{
-  width: 290px;
-  background-color: white;
-  border-radius: 50px;
-}
-.info-3 .padre-2{
-  width: 100%;
-  color: white;
-  margin: 40px;
-}
-.padre-2 .son-2{
-  font-size: 20px;
-}
-/*Fin experiencia*/
-/*preparate para viajar*/
+
 .preparate{
   display: flex;
   justify-content: center;
@@ -346,100 +99,24 @@ height: max-content;
 .preparate h3{
   font-size: 25px;
 }
-/*pie de pagina*/
-.pie-telefono{
-  display: none;
-}
-.pie{
-  background-color: #273758;
-  font-family: "bayon";
-}
-.left{
-  width: max-content;
-  margin-left: 80px;
-}
-.pie .left-pie-img{
-  width: max-content;
-  padding-top: 30px;
-  margin-left: 60px;
-}
-.pie .left-pie-img img{
-  width: 150px;
-}
-.datos-pie {
-  width: 1100px;
-  display: flex;
-  justify-content: space-around;
-  color: white;
-  margin-bottom: 20px;
-}
-.datos-pie ul {
-  list-style: none;
-}
-.datos-pie .text-derecha-pie li {
-  display: flex;
-  margin-bottom: 10px;
-}
-.datos-pie .text-derecha-pie li img {
-  height: 30px;
-  margin-right: 12px;
-}
-.hr-footer {
-  color: white;
-  height: 3px;
-}
-.datosFinales-pie {
-  color: white;
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-.datosFinales-pie li {
-  margin: 15px 0 ;
-  display: flex;
-  
-}
-.datosFinales-pie li img {
-  margin-left: 10px;
-  height: 30px;
-}
-/*fin de pie de pagina*/
-/*fin viajar*/
-/*responsive */
-  @media screen and (max-width: 1150px) {
-  .texto-superpuesto{
-    font-size:200%;
-    margin-top: 10px;
- }
- .ofert-viajes img{
-  width: 450px;
- }
-.ofert-viajes > div{
-  display: flex;
-  margin: 80px auto;
-}
-.bloques{
-  display: inline;
-}
-.bloques > div{
-  margin: 0 auto;
-}
+/* responsive pagina web*/
+@media screen and (max-width:768px) {
+  .viaje-titulo #rectangulo img{
+    margin: 0 4px;
+  }
+  .texto-superpuesto {
+    font-size: 30px;
+    top: 40%;
+  }
+  .col-4 img {
+    width: 3000px;
+  }
+
 .preparate{
   display: inline;
 }
 .preparate .son{
   margin: 20px auto;
 }
-.ofert-viajes .texto{
-  width: 450px;
-  margin-top: 270px;
-}
-.pie{
-  display: none;
-}
-.pie-telefono{
-  display: block;
 }
 
-}
-/*fin responsive*/
