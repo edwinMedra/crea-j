@@ -25,7 +25,6 @@ body{
 .titulo .titulo-son {
     font-size: 30px;
     text-align: right;
-    margin-right: 50px;
     opacity: 90%;
 }
 /* Botones de imagen principal */
@@ -44,6 +43,9 @@ body{
     border-radius: 30px;
     border: 0;
     font-size: 20px;
+}
+.btn {
+    background-color: #273758;
 }
 .botones .boton-right button {
     background-color: #345D9B;
@@ -81,28 +83,7 @@ body{
     z-index: 1;
 }
 /*fin galeria de viajes*/
-/*inicia informacion*/
-.iguazu {
-    background-color: white;
-    width: min-content;
-}
-.iguazu img {
-    width: 400px;
-}
-.iguazu p {
-    text-align: justify;
-}
-.iguazu button {
-    background-color: #345D9B;
-    color: white;
-    border: 0;
-    border-radius: 20px;
-}
 
-#tablita .col  {
-   margin: 0 5%;
-
-}
 /*pagina de promociones*/
 .end img{
     width: 100%;
@@ -112,7 +93,6 @@ body{
     position: absolute;
     z-index: 1;
     margin-top: -350px;
-    margin-left: 50px;
 }
 #info #vaca {
     font-size: 70px;
@@ -129,36 +109,39 @@ body{
     width: 300px;
     position: absolute;
 }
+#rectangulo img {
+    margin-left: 33px;
+}
 /*responsive de pagina web*/
 @media screen and (max-width:768px) {
     .titulo {
-        top: 200px;
-        font-size: 50px;
+        top: 140px;
+        font-size: 30px;
     }
     .botones {
-        top: 350px;
+        top: 150px;
     }
     .botones > div button{
         background-color: #273758;
         padding: 10px 30px;
-        margin: 0 90px;
+        margin: 130px 30px;
         color: white;
         font-family: "Be Vietnam Pro";
         border-radius: 30px;
         border: 0;
-        font-size: 15px;
+        font-size: 12px;
     }
 
     #rectangulo img {
-        margin-left: 69px;
+        margin-left: 14px;
     }
     #tablita .col {
         margin-top: 30px;
     }
     #info {
         position: absolute;
-        margin-top: -190px;
-        margin-left: 50px;
+        margin-top: -100px;
+        margin-left: 0px;
     }
     #info #vaca {
         font-size: 30px;
@@ -168,11 +151,11 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 20px;
+        font-size: 10px;
         color: white;
     }
     #info #descuento img{
-        width: 200px;
+        width: 100px;
         position: absolute;
     }
 }
