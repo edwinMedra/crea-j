@@ -5,6 +5,7 @@
 body {
   background-color: #ecebeb;
 }
+
 .back img {
   width: 100%;
   filter: brightness(40%);
@@ -21,21 +22,52 @@ body {
   font-family: "bayon";
   font-size: 65px;
 }
+
+#tipos {
+  font-size: 30px;
+}
+
+
 #marco {
-    background-color: #3C83ED;
-    width: 75%;
-    border-radius: 0 0 50px 50px;
-    margin: 0 auto;
-    color: white;
+  background-color: #3C83ED;
+  width: 75%;
+  border-radius: 0 0 50px 50px;
+  margin: 0 auto;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
 }
+
+#marco:hover {
+  background-color: #134b78;
+  color: #ffffff;
+}
+
+
 .col-12 img {
-    border-radius: 50px 50px 0 0;
-    max-height: 200px;
-    object-fit: cover;
+  border-radius: 50px 50px 0 0;
+  max-height: 200px;
+  object-fit: cover;
 }
+
+
 #cuadros {
-    background-color: #3C83ED;
+  background-color: #f5f5f5;
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:bold;
+  border: 1px black solid;
+
 }
+
+
+#cuadros:hover {
+  background-color: #437fb1;
+  color: #ffffff;
+}
+
+
+
+
 
 @media screen and (max-width: 768px) {
   .back .titulo {
