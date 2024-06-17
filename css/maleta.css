@@ -5,78 +5,42 @@
 body{
     background-color: #ECEBEB;
 }
-.back img {
-  width: 100%;
-  filter: brightness(50%);
+.back img{
+    width: 100%;
+    filter: brightness(50%);
+    object-fit: cover;
+    max-height: 500px;
 }
-
-.back .titulo {
-  position: absolute;
-  top: 50%;
-  color: white;
-  width: 100%;
-  text-align: center;
-  font-family: "Be vietnam pro";
-  font-size: 65px;
-}
-#tipos {
-    background-color: white;
-    font-size: 30px;
-    border: 1px black solid;
-}
-#articulo {
-    background-color: white;
-    font-family: "red hat display";
-    width: 400px;
-    text-align: justify;
-    border: 1px solid black;
-}
-#bodega {
-    background-color: white;
-    border: 1px solid black;
-}
-#bodega #registro {
-    text-align: justify;
-}
-#bodega {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#liquidos {
-    background-color: #345D9B;
-    border-radius: 10px 0 0 10px;
-}
-#liquidos1 {
-    background-color: #345D9B;
-    padding: 0 !important;
-}
-#pLiquidos p {
-    text-align: justify;
-}
-#pLiquidos ul {
-    text-align: justify;
+.titulo{
+    position: absolute;
+    width: 100%;
+    text-align: center;
     color: white;
+    font-size: 50px;
+    font-family: "red hat display";
+    margin-top: -300px;
 }
-#restringidos {
-    background-color: white;
-    border: 1px solid black;
-}
-#alimentos {
-    background-color: #345D9B;
-    border-radius: 0 20px 20px 0;
+ul li {
+    text-align: justify;
 }
 @media screen and (max-width:768px){      
-      .back .titulo {
+     .titulo {
         position: absolute;
-        top: 12%;
-        font-size: 40px;
+        top: 54%;
+        font-size: 29px;
       }
-      #alimentos1 {
-        margin:10px auto;
+      #tipos {
+        width: 75% !important;
+        padding: 2% !important;
       }
-      #alimentos {
-        background-color: #345D9B;
-        border-radius: 20px;
-    }
+      .col-12 {
+        width: 75% !important;
+        margin: 5% auto !important;
+      }
+      #equipaje .col-12 {
+        width: 100% !important;
+      }
+      #equipaje {
+        width: 75% !important;
+      }
 }

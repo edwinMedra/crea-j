@@ -13,6 +13,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
     rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="shortcut icon" href="../imagen/header/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="../css/header.css" />
   <link rel="stylesheet" href="../css/pie.css" />
@@ -57,213 +58,113 @@
   </nav>
   <!--Fin header-->
   <div class="back">
-    <img src="../imagen/maleta/maleta2.png" alt="" />
-    <div class="titulo">
-      <p>¿Qué puedo llevar en mi maleta?</p>
-    </div>
+    <img src="../imagen/maleta/maleta2.png" alt="">
+</div>
+<div class="titulo">
+    <p>¿Qué puedo llevar en mi maleta?</p>
+</div>
+  <div class="container-fluid bg-white p-4 border border-black border-1 w-25 my-3 text-center rounded-4" id="tipos">
+    <p class="my-auto fs-5">Tipos de equipaje:</p>
   </div>
-  <div class="container text-center  my-5 rounded-5 w-50 py-2 pt-4" id="tipos">
-    <p><b>Tipos de equipaje:</b></p>
-  </div>
-  <!--tipos de viajes-->
-  <div class="container text-center">
+  <!---->
+  <div class="container-fluid">
     <div class="row">
-      <div class="col my-3">
-        <div class="container rounded-5 px-3 pb-2" id="articulo">
-          <p class="fs-5 pt-5 text-center"><b>Artículo personal</b></p>
-          <div class="text-center"><img src="../imagen/maleta/articulo personal.png" alt="" class="w-50 "></div>
-          <p>Puede ser una cartera, morral, pañalera, un bolso para llevar un portátil o un paquete.</p>
+      <div class="col-12 col-lg-6 border border-black border-1 w-25 bg-white rounded-4 text-center p-2 mx-auto">
+        <p class="text-center fs-5"><b>Artículo personal</b></p>
+        <img src="../imagen/maleta/articulo personal.png" alt="" class="w-75">
+        <p>Puede ser una cartera, morral, pañalera, un bolso para llevar un portátil o un paquete.</p>
         <ul>
           <li>Medidas máximas: 45 x 35 x 25 cm (alto, largo y ancho).</li>
           <li>Asegúrate que puedas ubicarlo debajo del asiento delantero.</li>
           <li>En todas nuestras tarifas podrás llevar gratis un artículo personal.</li>
         </ul>
-        </div>
       </div>
-      <div class="col my-3">
-        <div class="container rounded-5 px-3 pb-2" id="articulo">
-          <p class="fs-5 pt-5 text-center"><b>Equipaje de mano</b></p>
-          <div class="text-center"><img src="../imagen/maleta/equipaje de mano.png" alt="" class="w-50 "></div>
-          <p class="my-5">Puedes llevarlo contigo en la cabina del avión y ubicarlo en el compartimiento superior.</p>
+      <!---->
+      <div class="col-12 col-lg-6 border border-black border-1 w-25 bg-white rounded-4 text-center p-2 mx-auto">
+        <p class="text-center fs-5"><b>Equipaje de mano</b></p>
+        <img src="../imagen/maleta/equipaje de mano.png" alt="" class="w-75 my-5">
+        <p>Puedes llevarlo contigo en la cabina del avión y ubicarlo en el compartimiento superior.</p>
         <ul>
-          <li class="my-4">Medidas máximas: 55 x 35 x 25 cm (alto, largo y ancho), incluyendo ruedas y manijas.</li>
-          <li class="my-4">Peso máximo: 10 kg. Si tu equipaje de mano no cumple con las condiciones, deberá registrarse como equipaje de bodega.</li>
+          <li>Medidas máximas: 55 x 35 x 25 cm (alto, largo y ancho), incluyendo ruedas y manijas. </li>
+          <li>
+            Peso máximo: 10 kg. Si tu equipaje de mano no cumple con las condiciones, deberá registrarse como equipaje de bodega.</li>
         </ul>
-        </div>
       </div>
     </div>
   </div>
-  <!---->
-
-  <div class="container p-4 w-75 rounded-5" id="bodega">
-    <div class="container text-center">
-      <div class="row align-items-start">
-        <div class="col">
-          <div class="mx-auto my-auto" id="bodega1"><img src="../imagen/maleta/equipaje de bodega.png" alt="" class="w-50"></div>
-        </div>
-        <div class="col">
-          <p class="fs-5"><b>Equipaje de bodega</b></p>
-          <p class="" id="registro">Regístralo en el counter del aeropuerto antes de ir a la sala de abordaje.</p>
-        <ul id="registro">
-          <li class="my-2">Medidas máximas: no debe exceder los 158 cm de dimensión total (largo + ancho + alto).</li>
-          <li class="my-2">Peso máximo: 23 kg en Clase económica y 32 kg en Clase ejecutiva.</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container text-center  my-5 rounded-5 w-50 py-2 pt-4" id="tipos">
-    <p><b>Objetos en el equipaje:</b></p>
-  </div>
-  <div class="container text-center " id="pLiquidos">
+  <div class="container-fluid border border-black border-1 my-5 w-50 bg-white rounded-3 text-center" id="equipaje">
     <div class="row">
-      <div class="col-sm-8 px-5 " id="liquidos">
-        <h2 class="text-white my-2">¿Puedo llevar líquidos en mi equipaje de mano?</h2>
-        <p class="text-white my-2">En tu equipaje de mano está permitido llevar líquidos en envases que no superen los 100 ml. Deberán ir dentro de una bolsa de plástico transparente con cierre adhesivo o cremallera cuya capacidad máxima sea 1 litro.</p>
-      <p class="text-white my-2">Estos no deben superar las medidas establecidas de 100 ml por producto y 1 litro en el total de todos los productos.</p>
-      <ul>
-        <li>Geles</li>
-        <li>Aerosoles</li>
-        <li>Desinfectante de manos</li>
-      </ul>
-      </div>
-      <div class="col-sm-4" id="liquidos1"><img src="../imagen/maleta/liquidos_en_equipaje.png" alt="" class="w-100"></div>
-    </div>
-  </div>
-  <div class="container my-5 p-4 rounded-4" id="restringidos">
-    <div class="container d-flex">
-      <h3><b>¿Qué artículos son restringidos en mi equipaje?</b></h3>
-      <div class="ms-5"><img src="../imagen/maleta/x.png" alt=""></div>
-    </div>
-    <div class="row my-3">
-      <div class="col">
+      <div class="col-12 col-lg-6 my-auto"><img src="../imagen/maleta/equipaje de bodega.png" alt="" class="w-75"></div>
+      <div class="col-12 col-lg-6 my-auto p-2">
+        <h4>Equipaje de bodega</h4>
+        <p>Regístralo en el counter del aeropuerto antes de ir a la sala de abordaje.</p>
         <ul>
-          <li>Aerosoles inflamables</li>
-          <li>Armas eléctricas (taser)</li>
-          <li>Baterías extraíbles o baterías portátiles</li>
-          <li>Bebidas alcohólicas</li>
-          <li>Botellas de oxígeno llenas (pipetas)</li>
-          <li>Combustibles</li>
-          <li>Dispositivos de oxígeno líquido</li>
-          <li>Elementos con baterías externas</li>
-          <li>Elementos discapacitadores</li>
-          <li>Equipos electrónicos dañados</li>
-        </ul>
-      </div>
-      <div class="col">
-        <ul>
-          <li>Fuegos artificiales</li>
-          <li>Maletines, cajas y sacos de seguridad</li>
-          <li>Pinturas</li>
-          <li>Tanques</li>
-          <li>Vehículos impulsados por baterías externas </li>
-          <li>Artículos para niños</li>
-          <li>Equipo motorizado</li>
-          <li>MacBook Pro</li>
-          <li>Oxígeno</li>
-          <li>Repelente</li>
+          <li>Medidas máximas: no debe exceder los 158 cm de dimensión total (largo + ancho + alto).</li>
+          <li>Peso máximo: 23 kg en Clase económica y 32 kg en Clase ejecutiva.</li>
         </ul>
       </div>
     </div>
   </div>
   <!---->
-  <div class="container my-5 p-4 rounded-4" id="restringidos">
-    <div class="container d-flex">
-      <h3><b>¿Qué artículos necesitan aprobación para ir en el equipaje?</b></h3>
-      <div class="ms-5"><img src="../imagen/maleta/ok.png" alt=""></div>
-    </div>
-    <div class="row my-3">
-      <div class="col">
-        <ul>
-          <li>Ayudas motrices accionadas</li>
-          <li>Baterías de litio de repuesto</li>
-          <li>Baterías de ion litio (recargables) </li>
-          <li>Baterías de metal de litio (no recargables) </li>
-          <li>Barómetros o termómetros de mercurio para usos meteorológicos </li>
-          <li>Dispositivos accionados con pilas o baterías de litio (PED)</li>
-          <li>Dispositivos de seguridad autoinflable con cartuchos pequeños </li>
-        </ul>
-      </div>
-      <div class="col">
-        <ul>
-          <li>Chaleco salvavidas</li>
-          <li>Otros dispositivos permitidos</li>
-          <li>Drones</li>
-          <li>Equipo de supervisión de agentes químicos</li>
-          <li>Hielo seco</li>
-          <li>Hornillos para acampada y contenedores de combustible</li>
-          <li>Mochila de rescate para avalancha </li>
-          <li>Munición embalada en forma segura </li>
-        </ul>
-      </div>
-    </div>
+  <div class="container-fluid bg-white p-4 border border-black border-1 w-50 my-3 text-center rounded-4" id="tipos">
+    <p class="my-auto fs-5">Objetos en el equipaje:</p>
   </div>
-  <!---->
-  <div class="container my-4">
+  <footer class="mt-3 pt-3">
+    <div class="container-fluid pt-2 ps-5"><img src="../imagen/logo.png" alt="" class="logo">
+    </div>
+    <div class="container-fluid text-white">
     <div class="row">
-      <div class="col-6 col-md-4 p-0" id="alimentos1"><img src="../imagen/maleta/alimentos_en_equipaje.png" alt="" class="w-100"></div>
-      <div class="col-md-8 " id="alimentos">
-        <h2 class="text-center text-white my-4"><b>¿Puedo llevar alimentos en mi equipaje?</b></h2>
-        <ul class="text-white mx-4 ">
-          <li class="my-3">Evita llevar alimentos perecederos como vegetales, carnes, frutas o leche. </li>
-          <li class="my-3">Solo podrás llevarlos en cantidades pequeñas y debidamente empacados, únicamente dentro del equipaje de mano. </li>
-          <li class="my-3">Evita llevar alimentos en piezas adicionales sujetas a espacio. </li>
-          <li class="my-3">En el equipaje de bodega o "Stand By" no está permitido llevar alimentos perecederos.</li>
-          <li class="my-3">Verifica en los formularios de aduana, si los alimentos que llevas deben ser declarados.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="pie">
-        <div class="left-pie-img">
-            <img src="../imagen/index/pie-login.png" alt="">
+        <div class="col-6 col-sm-4 col-md-2" >
+            <ul class="">
+                <hr>
+                <li><h6><b>AYUDA</b></h6></li>
+                <li>Contáctanos</li>
+                <li>Métodos de pago</li>
+                <li>Cambios y devoluciones</li>
+                <li>Preguntas frecuentes</li>
+                <li>Promociones</li>
+            </ul>
         </div>
-        <div class="datos-pie">
-            <div class="text-left-pie">
-                <h2>AYUDA</h2>
-                <ul>
-                    <li>Contactanos</li>
-                    <li>Metodos de pago</li>
-                    <li>Cambios y devoluciones</li>
-                    <li>Preguntas frecuentes</li>
-                    <li>Promociones</li>
-                </ul>
-            </div>
-            <div class="text-2/4-pie">
-                <h2>ACERCA DE</h2>
-                <ul>
-                    <li>Ubicación </li>
-                    <li>Redes</li>
-                </ul>
-            </div>
-            <div class="text-3/4-pie">
-                <h2>NOSOTROS</h2>
-                <ul>
-                    <li>Somos ESfly</li>
-                    <li>Alianzas y Beneficios</li>
-                    <li>Accesibilidad</li>
-                </ul>
-            </div>
-            <div class="text-derecha-pie">
-                <h2>SIGUENOS</h2>
-                <ul>
-                    <li><img src="../imagen/index/whatsapp.png" alt="whatsapp">7270-9970</li>
-                    <li><img src="../imagen/index/instagram.png" alt="instagram">ESfly_official</li>
-                    <li><img src="../imagen/index/facebook.png" alt="facebook">ESfly_official</li>
-                    <li><img src="../imagen/index/youtube.png" alt="youtube">ESfly_official</li>
-                </ul>
-            </div>
+        <div class="col-6 col-sm-4 col-md-2">
+            <ul class="">
+                <hr>
+                <li><h6><b>ACERCA</b></h6></li>
+                <li>Ubicación</li>
+                <li>Redes</li>
         </div>
-        <hr class="br-footer">
-        <ul class="datosFinales-pie">
-            <li>Copyright © ESfly 2024</li>
-            <li>A STAR ALLIANCE MEMBER  <img src="../imagen/index/STA.png" alt="STAR ALLIANCE MEMBER"></li>
-            <li>Colegio Don Bosco 2 "B"</li>
-        </ul>
-    </div>
-    <div class="pie-telefono">
-
+        <div class="col-6 col-sm-4 col-md-2">
+            <ul class="">
+                <hr>
+                <li><h6><b>ACERCA</b></h6></li>
+                <li>Ubicación</li>
+                <li>Redes</li>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+            <ul class="">
+                <hr>
+                <li><h6><b>NOSOTROS</b></h6></li>
+                <li>Somos ESfly</li>
+                <li>Alianzas y Beneficios</li>
+                <li>Accecibilidad</li>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+            <ul class="">
+                <hr>
+                <li><h6><b>NOSOTROS</b></h6></li>
+                <li>Somos ESfly</li>
+                <li>Alianzas y Beneficios</li>
+                <li>Accecibilidad</li>
+        </div>
+        <div class="col-6 col-sm-4 col-md-2">
+            <ul class="">
+                <hr>
+                <li><h6><b>SIGUENOS</b></h6></li>
+                <i class="bi bi-whatsapp"> 7720-9970</i><br>
+                <i class="bi bi-instagram"> ESfly_official</i><br>
+                <i class="bi bi-facebook"> ESfly_official</i><br>
+                <i class="bi bi-youtube"> ESfly-official</i><br>
+        </div>
+    </div>    
     </div>
 </footer>
 </body>
