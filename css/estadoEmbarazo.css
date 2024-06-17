@@ -10,10 +10,14 @@ body{
     background-color: #ECEBEB;    
     font-family: "Be Vietnam Pro";
 }
-
+h3 {
+    font-family: "Bayon";
+}
 .back img{
     width: 100%;
     filter: brightness(50%);
+    object-fit: cover;
+    max-height: 500px;
 }
 .titulo{
     position: absolute;
@@ -24,69 +28,32 @@ body{
     font-family: "red hat display";
     margin-top: -250px;
 }
-.info{
-    margin: 30px 250px;
-    background-color: white;
-    display: flex;
-    border-radius: 28px;
-    border: black solid 1px;
-}
-.info .left{
-    margin: 0;
-}
-.info .left img{
-    width: 300px;
-    padding: 10px;
-}
-.info .right{
-    padding: 50px;
-}
-.info .right h4{
-    text-align: left;
-    margin-bottom: 20px;
-    font-size: 22px;
-    color: #273758;
-}
-.info .right p{
-    text-align: justify;
-    font-size: 15px;
-    color: #273758;
-}
-/*estados de embarazo*/
-.titulo-estado{
-    background-color: white;
-    border-radius: 20px;
-    border: solid black 1px;
-    width: max-content;
-    margin: 20px auto;
-    padding: 20px 200px;
-    color: #273758;
-    font-size: 20px;
-}
-.estado{
-    display: flex;
-    width: max-content;
-    margin: 60px auto;
-}
-.estado .left{
-    background-color: white;
-    border: solid black 1px;
-    border-radius: 28px;
-    padding: 50px 70px;
-    text-align: center;
-    width: min-content;
-    margin: 0 50px;
-}
-.estado .left img{
-    width: 250px;
-    margin-top: 10px;
-}
-.estado .left h5{
-    color: #273758;
-    font-size: 17px;
-}
-.estado .left li{
-    color: #273758;
+.col-lg-9 p {
     text-align: justify;
     margin: 20px 0;
+}
+li {
+    text-align: justify;
+    margin: 10px 0;
+}
+@media screen and (max-width:768px) {
+    #info {
+        width: 85% !important;
+    }
+    .titulo{
+        color: white;
+        font-size: 30px;
+        font-family: "red hat display";
+        margin-top: -150px;
+    }
+    h3 {
+        margin: 15px 0 !important;
+    }
+    #estado {
+        width: 75% !important;
+    }
+    #tiempo {
+        width: 75% !important;
+        margin: 20px 0;
+    }
 }
