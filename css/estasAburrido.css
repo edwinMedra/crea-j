@@ -6,52 +6,32 @@ body{
     font-family: "Be Vietnam Pro";
     background-color: #ECEBEB;
 }
+
 .back img{
     width: 100%;
     filter: brightness(50%);
-}
-header{
-    position: fixed;
-    z-index: 1;
+    object-fit: cover;
+    max-height: 500px;
 }
 .titulo{
-    font-family: "red hat display";
-    width: 100%;
-    text-align: center;
-    font-size: 60px;
-    color: white;
     position: absolute;
-    margin-top: -360px;
-}
-.recomendaciones{
-    margin-top: 50px;
-    color: #888686;
-    font-size: 30px;
-    margin-left: 90px;
-}
-/*empieza galeria de imagenes*/
-.galeria{
-    display: flex;
-    margin: 60px auto;
-    width: max-content;
-}
-.galeria img{
-    width: 511px;
-}
-.galeria .gale-1{
-background-color: white;
-width: max-content;
-border-radius: 47px;
-margin: 0 30px;
-}
-.galeria .gale-1 .text-1{
-    margin: 20px 0;
-    text-align: center;
     width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "red hat display";
+    margin-top: -300px;
+}
+#texto {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 0 0 50px 50px;
+    font-family: 20px;
 }
 /*responsive de pagina web*/
-@media screen and (max-width:1150px) {
-    .galeria{
-        display: block;
+@media screen and (max-width:768px) {
+    .titulo{
+        font-size: 30px;
+        margin-top: -115px;
     }
 }
