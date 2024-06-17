@@ -11,6 +11,9 @@ body{
     object-fit: cover;
     max-height: 500px;
 }
+h5 {
+  font-family: "Bayon";
+}
 .titulo{
     position: absolute;
     width: 100%;
@@ -22,6 +25,17 @@ body{
 }
 ul li {
     text-align: justify;
+    margin: 5px 0;
+}
+#liquidos {
+  background-color:#345D9B ;
+}
+#liquidos p {
+  text-align: justify;
+}
+
+#restringidos  ul li {
+  text-align: left;
 }
 @media screen and (max-width:768px){      
      .titulo {
@@ -42,5 +56,39 @@ ul li {
       }
       #equipaje {
         width: 75% !important;
+      }
+      #liquidos {
+        width: 100% !important;
+        padding: 0 0 0 0 !important;
+      }
+      #liquidos .col-12 {
+        padding: 0 !important;
+      }
+      #liquidos .col-12 img{
+        float: none !important;
+        width: 100% !important;
+      }
+      #liquidos ul li {
+        text-align: left;
+      }
+      #restringidos h5 {
+        font-size: 20px !important;
+        text-align: center;
+      }
+      #restringidos {
+        width: 100% !important;
+      }
+      #restringidos  ul li {
+        text-align: left;
+      }
+      #restringidos ul {
+        margin: 0 !important;
+        padding: 0 !important; 
+      }
+      #restringidos .row {
+        width: 100% !important;
+      }
+      #liquidos ul li{
+        margin: 10px 0 !important;
       }
 }
