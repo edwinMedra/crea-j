@@ -9,6 +9,7 @@ body {
   width: 100%;
   filter: brightness(40%);
   object-fit: cover;
+  max-height: 600px;
 }
 
 .back .titulo {
