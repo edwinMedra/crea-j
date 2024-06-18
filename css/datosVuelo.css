@@ -4,7 +4,7 @@
   }
 
   body {
-  background-color: #ecebeb;
+    background-color: #ecebeb;
   }
   
 .back img {
@@ -15,7 +15,7 @@
 }
   
 .titulo{
-  font-family: "Be Vietnam Pro";
+    font-family: "Be Vietnam Pro";
 }
 
 
@@ -27,7 +27,7 @@
   text-align: center;
   font-size: 65px;
 }
-
+  
 .card-text {
   font-family: "Be Vietnam Pro";
   text-align: justify;
@@ -38,15 +38,18 @@
   text-align: center;
 }
   
-#azafata{
-  border-radius: 40px;
+
+.card-img-top{
+  height: 400px;
+object-fit: cover;
 }
+
   
-  @media screen and (max-width: 768px) {
-    .back .titulo {
-      position: absolute;
-      top: 20%;
-      font-size: 30px;
-    }
+@media screen and (max-width: 768px) {
+  .back .titulo {
+    position: absolute;
+    top: 20%;
+    font-size: 30px;
+  }
     
 }
