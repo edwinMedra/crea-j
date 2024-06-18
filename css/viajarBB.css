@@ -1,57 +1,59 @@
-* { 
-    padding: 0;
-    margin: 0;
-
-}
-nav{
-    font-family: "bayon";
-    z-index: 1;
-}
-/*logo de la pagina web*/
-#logo {
-    width: 100px;
-}
-.nav-link{
-    color: #273758;
-    font-size: 20px;
+* {
+  padding: 0;
+  margin: 0;
 }
 /*imagen principal*/
 /*imagen principal de la pagina web*/
-body{
-    font-family: "Be vietnam pro";
-    background-color: #ECEBEB;
+body {
+  font-family: "Be vietnam pro";
+  background-color: #ecebeb;
 }
-.back img{
-    width: 100%;
-    filter: brightness(50%);
-    margin-top: 0px;
-    }
-    .back .titulo{
-        position: absolute;
-        top: 50%;
-        color: white;
-        width: 100%;
-        text-align: center;
-        font-family: "Be vietnam pro";
-        font-size: 65px;
-   
-    }
-    /*fin imagen principal*/
-#principal{
-    background-color: white;
+.back img {
+  width: 100%;
+  filter: brightness(50%);
+  object-fit: cover;
+  max-height: 500px;
 }
-#adi{
-    background-color: white;
-    text-align: center;
+.titulo {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: "red hat display";
+  margin-top: -280px;
 }
-#plan {
-    background-color: white;
-    width: 800px;
+/*fin imagen principal*/
+h3 {
+  font-family: bayon;
 }
-#cabina{
-    background-color: white;
-    width: 800px;
+h4 {
+  font-family: "bayon";
 }
-#cabina img{
-    width: 350px;
+#plan ol li {
+  margin: 10px 0 !important;
+  text-align: justify;
+}
+#plan p {
+    text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  .titulo {
+    color: white;
+    font-size: 30px;
+    font-family: "red hat display";
+    margin-top: -140px;
+  }
+  .col-12 img {
+    margin: 10px 0 !important;
+  }
+  #puntos {
+    width: 75% !important;
+  }
+  #plan .row {
+    width: 100% !important;
+  }
+  #plan .col-12 img {
+    width: 75% !important;
+  }
 }
