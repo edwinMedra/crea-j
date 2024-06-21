@@ -10,7 +10,7 @@
 
 .img-fluid{
     align-items: center;
-    width: 50px;
+    width: 35px;
     height: auto;
 }
 
@@ -19,6 +19,11 @@
     height: 400px;
     width: auto;
     font-family: "Be Vietnam Pro";
+}
+
+.img{
+    width: 28px;
+    object-fit: cover;
 }
 
 
@@ -35,13 +40,16 @@
 }
 
 .img-2{
-    background-image: url('../imagen/login/fondo2.jpg');
+    background-image: url('../imagen/login/fondo3.png');
     background-size: cover;
     background-position: center;
 }
 
 .img-3{
-    background-image: url('../imagen/login/fondo2.jpg');
+    background-image: url('../imagen/login/fondo4.png');
     background-size: cover;
     background-position: center;
 }
+
+
+/* CSS DEL OJO PRUEBA 3*/
