@@ -1,87 +1,47 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-body{
-    font-family: "bayon";
-    background-color: #F4F4F4;
-}
-.padre{
-display: flex;
-background-color: white;
-margin-top: 30px;
-margin: 20px 80px;
-}
-.padre .imagen{
-width: max-content;
-height: max-content;
-}
-.imagen img{
-    width: 550px;
-    height: auto;
-}
-.formu{
-    display: inline;
-    width: max-content;
-    margin-top: 60px;
-    margin-left: 90px;
-    overflow: hidden;
+
+.row{
+    font-family: "Be Vietnam Pro";
 
 }
-.formu h2{
-    text-align: center;
-    color: #273758;
-    font-size: 30px;
+
+.img-fluid{
+    align-items: center;
+    width: 50px;
+    height: auto;
 }
-.formu input{
-    margin: 14px 0;
-    width: 400px;
-    height: 35px;
-    background-color: #D9D9D9;
-    border: 1px blue solid;
-    border-radius: 6px;
+
+
+.container{
+    height: 400px;
+    width: auto;
+    font-family: "Be Vietnam Pro";
 }
-.login{
-    position: absolute;
-    top: 187px;
-    margin-left: 285px;
-}
-.login img{
-    width: 35px;
+
+
+.bx {
+    font-size: 20px;
+    transform: translateX(-35px);
     cursor: pointer;
 }
-input::placeholder{
- padding-left: 10px;
+
+.img-1{
+    background-image: url('../imagen/login/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
 }
-.crear-1{
-    display: flex;
+
+.img-2{
+    background-image: url('../imagen/login/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
 }
-#crear{
-    background-color:#345D9B ;
-    width: 100px;
-    color: white;
-    border-radius: 28px;
-    margin-left: 60px;
-    cursor: pointer;
-}
-.crear-1 h4{
-margin-top: 22px;
-margin-left: 35px;
-font-family: Arial, Helvetica, sans-serif;
-color: #345D9B;
-cursor: pointer;
-}
-/*Responsive de pagina web*/
-@media screen and (max-width:1150px) {
-.imagen{
-    display: none;
-}
-.formu{
-    margin: 0 auto;
-}
-.login{
-    position: absolute;
-    top: 126px;
-    margin-left: 285px;
-}
+
+.img-3{
+    background-image: url('../imagen/login/fondo2.jpg');
+    background-size: cover;
+    background-position: center;
 }
