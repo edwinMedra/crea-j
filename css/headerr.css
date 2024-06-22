@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: "Be Vietnam Pro";
+    font-size: 15px;
+    z-index: 1;
+    background-color: #f0f0f0;
+}
+/*logo de la pagina web*/
+#logo {
+    width: 100px;
+}
+.nav-link{
+    color: #434343;
+}
+
+
+/*Botones azules AL FINAL Del menu*/
+
+.btn{
+    font-size: 15px;
+    border-radius: 30px;
+
+}
+
+.btn-registro {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-registro:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.btn-primary-outline-success {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+.btn-primary-outline-success:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+#lupa{
+    background-color: transparent;
+    border: transparent;
+}
+
+/*SOMBRAS EN EL MENU */
+
+.shadow-navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+/*EFECTO DE LINEA ABAJO DE LAS OPCIONES*/
+.navbar-nav .nav-link {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #007bff;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+    background: #007bff;
+}
