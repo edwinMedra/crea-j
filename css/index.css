@@ -83,7 +83,9 @@ body{
 .texto-titulo{
   font-family: "Be Vietnam Pro";
 }
-
+.card-text{
+  font-family: "Be Vietnam Pro";
+}
 
 #info {
   background-color: #273758;

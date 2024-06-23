@@ -38,15 +38,21 @@
     cursor: pointer;
 }
 
+
+.carousel-inner img {
+    height: 100vh;
+    object-fit: cover;
+
+}
+
 .img-1{
-    background-image: url('../imagen/login/fondo2.jpg');
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    
 }
 
 .img-2{
-    background-image: url('../imagen/login/fondo3.png');
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -54,7 +60,6 @@
 }
 
 .img-3{
-    background-image: url('../imagen/login/fondo4.png');
     background-size: cover;
     background-position: center;
     object-fit: cover;
