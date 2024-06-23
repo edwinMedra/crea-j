@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,19 +14,23 @@
         rel="stylesheet">
     <link rel="shortcut icon" href="../imagen/header/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/bahamas.css">
-    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/headerr.css">
     <title>Bahamas</title>
 </head>
 <body>
-     <!--Inicio header-->
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     
+    <!--Inicio header-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-navbar fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="../imagen/estoyAnsioso/esflyInfo.png" class="" id="logo"
-                    alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    
+            <a class="navbar-brand" href="index.html">
+                <img src="../imagen/estoyAnsioso/esflyInfo.png" class="" id="logo" alt="">
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+    
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -38,20 +42,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="check-in.html">Check-in</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login</a>
-                    </li>
                 </ul>
-                <span class="navbar-text">
-                </span>
+    
+                <span class="navbar-text"></span>
+    
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-primary-outline-success btn-primary" type="submit">Buscar</button>
+                    <a href="../html/login.html" class="btn btn-primary-outline-success btn-primary ms-1" type="submit">Iniciar sesión</a>
+
+                    <a href="../html/registro.html" class="btn btn-registro ms-1 " href="../html/registro.html" type="submit">Registrarse</a>
+
                 </form>
+                <a href="../html/busqueda.html" class="btn  btn-primary-outline ms-1" type="submit"><img src="../imagen/header/lupa.png" class="" id="lupa" alt="" width="30"> Buscar</a>
             </div>
         </div>
     </nav>
-    <!--Fin header-->
+    
+    <!--Fin header-->   
+
      <!--Imagen principal de entrada de pagina web-->
      <div class="back">
         <div><img src="../imagen/bahamas/back.jpg" alt=""></div>
