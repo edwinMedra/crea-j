@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Be Vietnam Pro";
+}
+/*TABLA DE VUELO*/
+
+.tablavuelo{
+    font-family: "Bw";
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-reservar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-reservar:hover {
+    background-color: #0056b3;
+  }
+  
+  /*FIN TABLA VUELO*/

@@ -1,18 +1,34 @@
-* {
-  padding: 0;
+*{
   margin: 0;
-}
-body {
-  background-color: #ecebeb;
-  font-family: "red hat display";
+  padding: 0;
 }
 
-#normal {
-  background-color: #0049b6;
+body{
+  background-color: #f6f6f6;
+  font-family: "bayon";
 }
-.col-12 p {
+
+.espacio{
+  height: 40px;
+}
+
+.card {
+  width: 100%;
+  height: 100px; 
+}
+
+.card img{
+  height:min-content;
+  width: 650px;
+  object-fit: cover;
+}
+
+
+.card-text{
   text-align: justify;
 }
+
+
 @media screen and (max-width: 768px) {
   #normal {
     width: 75% !important;
