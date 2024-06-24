@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+      <!--TABLAS DE VUELO PRUEBA-->
+
+      <div class="container mt-5 ">
+        <h2>Reserva de Vuelos</h2>
+        <form>
+            <div class="tablavuelo form-group row">
+                <label for="input" class=" col-sm-3 col-form-label form-label">Origen</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="origen" placeholder="País de origen">
+                </div>
+            </div>
+            <div class="tablavuelo form-group row">
+                <label for="input" class="col-sm-3 col-form-label form-label">Destino</label>
+                <div class="col-sm-9">
+                    <input type="text" class="form-control" id="destino" placeholder="País de destino">
+                </div>
+            </div>
+            <div class="tablavuelo form-group row">
+                <label for="input" class="col-sm-3 col-form-label form-label">Fecha del Vuelo</label>
+                <div class="col-sm-9">
+                    <input type="date" class="form-control" id="inputDate">
+                </div>
+            </div>
+            <div class="tablavuelo form-group row">
+                <label for="input" class="col-sm-3 col-form-label form-label">Adultos</label>
+                <div class="col-sm-3">
+                    <select id="inputAdults" class="form-control">
+                        <option selected>Seleccionar...</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <label for="inputChildren" class="col-sm-3 col-form-label form-label">Niños</label>
+                <div class="col-sm-3">
+                    <select id="inputChildren" class="form-control">
+                        <option selected>Seleccionar...</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+            </div>
+            <div class=" tablavuelo form-group row">
+                <label for="inputBabies" class="col-sm-3 col-form-label form-label">Bebés</label>
+                <div class="col-sm-3">
+                    <select id="inputBabies" class="form-control">
+                        <option selected>Seleccionar...</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                </div>
+                <label for="inputYouth" class="col-sm-3 col-form-label form-label">Jóvenes</label>
+                <div class="col-sm-3">
+                    <select id="inputYouth" class="form-control">
+                        <option selected>Seleccionar...</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+            </div>
+            <div class="tablavuelo form-group row">
+                <div class="col-sm-9 offset-sm-3">
+                    <button type="submit" class="btn btn-reservar">Reservar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--FIN DE TABLAS DE VUELO PRUEBA-->
+
+
+
+
+</body>
+</html>

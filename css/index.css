@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: #ECEBEB;
+  background-color: #f6f6f6;
   font-family: "bayon";
 }
 
@@ -33,6 +33,10 @@ body{
   max-height: 600px;
 }
 
+
+/*TABLA DE VUELO*/
+
+/*FIN TABLA VUELO*/
 
 /*empieza galeria de viajes CON HOVER DE PRUEBA*/
 
@@ -80,6 +84,7 @@ body{
 
 /*fin galeria de viajes*/
 
+/*INFORMACION GENERAL DE LA AEROLINEA*/
 .texto-titulo{
   font-family: "Be Vietnam Pro";
 }
@@ -87,49 +92,52 @@ body{
   font-family: "Be Vietnam Pro";
 }
 
-#info {
-  background-color: #273758;
-}
-
-#informa {
-  background-color: white;
-}
-
-.preparate{
-  display: flex;
-  justify-content: center;
-}
-
-.preparate .texto{
-width:100%;
-height: max-content;
-}
-
-.preparate .logito{
-  width: max-content;
-  height: max-content;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
-.preparate .logito img{
-  width: 60px;
-}
-
-.preparate .son{
-  display: flex;
-  background-color: white;
-  border-radius: 20px;
-  width: 290px;
-  margin: 20px 30px;
-  box-shadow: 10px -7px #273758;
-  text-align: center;
-  padding: 20px;
-}
-
-.preparate h3{
+.card-title{
   font-size: 25px;
 }
+
+.card {
+  width: 100%;
+  height: 200px; 
+}
+
+.card img{
+  height:200px;
+  width: 650px;
+  object-fit: cover;
+}
+
+.b-info{
+  font-family: "Be Vietnam Pro";
+}
+/*TERMINA LA INFORAMACION DE LA AEROLINEA*/
+
+/*PREPARATTE PARA VIAJAR*/
+
+.card-prep{
+  background-color: rgb(46, 92, 243);
+  color: #f6f6f6;
+}
+
+.card-group{
+  max-width: 600px;
+}
+
+.card-img-top{
+  object-fit: cover;
+}
+
+.card-hover-effect {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+/**/
 
 /* responsive pagina web*/
 @media screen and (max-width:768px) {
