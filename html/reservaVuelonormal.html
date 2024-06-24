@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar Vuelo Normal</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .required-field::after {
+            content: " *";
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">RESERVAR VUELO NORMAL <img src="path/to/logo.png" alt="Logo" style="height: 30px;"></h1>
+        <form>
+            <div class="form-group">
+                <label for="nombreCompleto" class="required-field">Nombre completo</label>
+                <input type="text" class="form-control" id="nombreCompleto" value="Patito Juan Pérez Gonzales" readonly>
+            </div>
+            <div class="form-group">
+                <label for="dui" class="required-field">DUI</label>
+                <input type="text" class="form-control" id="dui" value="03387626-4" readonly>
+            </div>
+            <div class="form-group">
+                <label for="pasaporte" class="required-field">Pasaporte</label>
+                <input type="text" class="form-control" id="pasaporte" value="3818970" readonly>
+            </div>
+            <div class="form-group">
+                <label for="cantidadBoletos" class="required-field">Cantidad de boletos</label>
+                <select class="form-control" id="cantidadBoletos">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="required-field">Mascotas en el vuelo</label>
+                <div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="mascotasVuelo" id="mascotasSi" value="si">
+                        <label class="form-check-label" for="mascotasSi">SI</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="mascotasVuelo" id="mascotasNo" value="no" checked>
+                        <label class="form-check-label" for="mascotasNo">NO</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="cantidadMascotas" class="required-field">Cantidad de mascotas</label>
+                <select class="form-control" id="cantidadMascotas" disabled>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="claseMascotas" class="required-field">Clase de mascotas</label>
+                <select class="form-control" id="claseMascotas" disabled>
+                    <option>Perro</option>
+                    <option>Gato</option>
+                    <option>Ave</option>
+                    <option>Otro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="tipoMaletas" class="required-field">Tipo de maletas</label>
+                <select class="form-control" id="tipoMaletas">
+                    <option>Mano</option>
+                    <option>Bodega</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="cantidadMaletas" class="required-field">Cantidad de maletas</label>
+                <select class="form-control" id="cantidadMaletas">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <div class="text-center">
+                <button type="button" class="btn btn-primary">Atrás</button>
+                <button type="submit" class="btn btn-primary">Siguiente</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('mascotasSi').addEventListener('change', function () {
+            document.getElementById('cantidadMascotas').disabled = false;
+            document.getElementById('claseMascotas').disabled = false;
+        });
+
+        document.getElementById('mascotasNo').addEventListener('change', function () {
+            document.getElementById('cantidadMascotas').disabled = true;
+            document.getElementById('claseMascotas').disabled = true;
+        });
+    </script>
+</body>
+</html>
