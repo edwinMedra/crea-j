@@ -34,6 +34,38 @@ body{
 }
 
 
+/*CUADRO DE BUSCAR VUELOS*/
+
+.centered-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card-buscar {
+  width: 100%;
+  max-width: 900px;
+  min-height: 60vh;
+  font-family:"Be Vietnam Pro" ;
+
+}
+.form-inline .form-group {
+  display: flex;
+  align-items: center;
+}
+.form-inline .form-control {
+  width: auto;
+  flex: 1;
+}
+
+.text-formu{
+  font-weight: bold;
+}
+
+
+/*FIN DEL CUADRO DE BUSCAR VUELOS*/
+
+
 /*empieza galeria de viajes CON HOVER DE PRUEBA*/
 
 .image-container {
@@ -113,10 +145,12 @@ body{
 .card-prep{
   background-color: rgb(46, 92, 243);
   color: #f6f6f6;
+  text-decoration: none;
 }
 
 .card-group{
   max-width: 600px;
+  text-decoration: none;
 }
 
 .card-img-top{
